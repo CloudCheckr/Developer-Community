@@ -1,0 +1,72 @@
+INFO:root:Created the Group GroupAlpha with id: 0f0f4732-29b0-49e4-a99f-b81cce9cda96
+INFO:root:{'group_id': '0f0f4732-29b0-49e4-a99f-b81cce9cda96', 'Code': 200, 'Message': 'OK'}
+INFO:root:Created the Group GroupBeta with id: 5bfcfd1c-c555-461e-9e26-83e3aec78624
+INFO:root:{'group_id': '5bfcfd1c-c555-461e-9e26-83e3aec78624', 'Code': 200, 'Message': 'OK'}
+INFO:root:Created the Group GroupAlpha with id: bad3eec8-aaf3-4217-b216-35fc1ead9e22
+INFO:root:{'group_id': 'bad3eec8-aaf3-4217-b216-35fc1ead9e22', 'Code': 200, 'Message': 'OK'}
+INFO:root:Created the Group GroupBeta with id: c81a5e08-e0c3-4889-9410-536971f09881
+INFO:root:{'group_id': 'c81a5e08-e0c3-4889-9410-536971f09881', 'Code': 200, 'Message': 'OK'}
+INFO:root:Created the Group GroupAlpha with id: 6fdfe262-d6ac-4bf7-a576-e4d7dfb9d670
+INFO:root:{'group_id': '6fdfe262-d6ac-4bf7-a576-e4d7dfb9d670', 'Code': 200, 'Message': 'OK'}
+INFO:root:Created the Group GroupBeta with id: 30517b30-7bf7-40cb-a248-083b4cd26ed8
+INFO:root:{'group_id': '30517b30-7bf7-40cb-a248-083b4cd26ed8', 'Code': 200, 'Message': 'OK'}
+INFO:root:Created the Group GroupAlpha with id: 8dda8065-82b0-4615-88ee-5d1f6c52eb22
+INFO:root:{'group_id': '8dda8065-82b0-4615-88ee-5d1f6c52eb22', 'Code': 200, 'Message': 'OK'}
+INFO:root:Created the Group GroupBeta with id: 3fc9d156-9333-4e65-8adc-f0226374c62e
+INFO:root:{'group_id': '3fc9d156-9333-4e65-8adc-f0226374c62e', 'Code': 200, 'Message': 'OK'}
+INFO:root:Created the Group GroupAlpha with id: 70995bf9-fe9c-4e0e-a07f-2f6b694c3fd5
+INFO:root:{'group_id': '70995bf9-fe9c-4e0e-a07f-2f6b694c3fd5', 'Code': 200, 'Message': 'OK'}
+INFO:root:Created the Group GroupBeta with id: 7484fe22-76cb-45f1-8443-6d551f8ee6a6
+INFO:root:{'group_id': '7484fe22-76cb-45f1-8443-6d551f8ee6a6', 'Code': 200, 'Message': 'OK'}
+INFO:root:Created the Group: GroupAlpha with id: 3ddc2491-b4ea-4e06-9813-6528dc298cae
+INFO:root:{'group_id': '3ddc2491-b4ea-4e06-9813-6528dc298cae', 'Code': 200, 'Message': 'OK'}
+INFO:root:Created the Group: GroupBeta with id: d04a364b-2c0a-4aa0-b631-64346ccb6ce8
+INFO:root:{'group_id': 'd04a364b-2c0a-4aa0-b631-64346ccb6ce8', 'Code': 200, 'Message': 'OK'}
+INFO:root:Created the Group: GroupAlpha with id: 3295eddf-4ebd-4310-a90d-abc8cde83366
+INFO:root:{'group_id': '3295eddf-4ebd-4310-a90d-abc8cde83366', 'Code': 200, 'Message': 'OK'}
+INFO:root:Created the Group: GroupBeta with id: 52277c68-1420-4426-99b0-7ee008c123d5
+INFO:root:{'group_id': '52277c68-1420-4426-99b0-7ee008c123d5', 'Code': 200, 'Message': 'OK'}
+INFO:root:Created the Group: GroupZeta with id: acf2e371-cc52-484f-9da8-e8746e94858b
+INFO:root:{'group_id': 'acf2e371-cc52-484f-9da8-e8746e94858b', 'Code': 200, 'Message': 'OK'}
+INFO:root:Created the Group: GroupIota with id: 86748a14-510a-4aaf-889a-b0b3ba503adb
+INFO:root:{'group_id': '86748a14-510a-4aaf-889a-b0b3ba503adb', 'Code': 200, 'Message': 'OK'}
+INFO:root:No duplicate groups found, please proceed.
+INFO:root:Created the Group: GroupZeta with id: a42977d0-2fd9-40b8-accc-f6638a00e1f7
+INFO:root:{'group_id': 'a42977d0-2fd9-40b8-accc-f6638a00e1f7', 'Code': 200, 'Message': 'OK'}
+INFO:root:Created the Group: GroupIota with id: b13dab59-c7b0-49bf-9093-63df1ef02137
+INFO:root:{'group_id': 'b13dab59-c7b0-49bf-9093-63df1ef02137', 'Code': 200, 'Message': 'OK'}
+INFO:root:A group with the name GroupIota2 has already been created. Please rename it
+INFO:root:A group with the name GroupIota3 has already been created. Please rename it
+INFO:root:Found duplicate group: GroupIota. We recommend renaming it through the UI to remove duplicates.
+INFO:root:Found duplicate group: GroupIota. We recommend renaming it through the UI to remove duplicates.
+INFO:root:Found duplicate group: GroupZeta. We recommend renaming it through the UI to remove duplicates.
+INFO:root:Found duplicate group: GroupZeta. We recommend renaming it through the UI to remove duplicates.
+INFO:root:Please remove duplicate group names before proceeding.
+INFO:root:Found duplicate group: GroupZeta. We recommend renaming it through the UI to remove duplicates.
+INFO:root:Found duplicate group: GroupZeta. We recommend renaming it through the UI to remove duplicates.
+INFO:root:Please remove duplicate group names before proceeding.
+INFO:root:No duplicate groups found, please proceed.
+INFO:root:Created the Group: GroupZeta with id: 0d0d51cd-fbc2-429e-ba3b-b94b9e79d340
+INFO:root:{'group_id': '0d0d51cd-fbc2-429e-ba3b-b94b9e79d340', 'Code': 200, 'Message': 'OK'}
+INFO:root:Created the Group: GroupIota with id: 273c791b-2518-450e-b8e8-d09a8c020fc9
+INFO:root:{'group_id': '273c791b-2518-450e-b8e8-d09a8c020fc9', 'Code': 200, 'Message': 'OK'}
+INFO:root:A group with the name GroupIota2 has already been created. Please rename it
+INFO:root:A group with the name GroupIota3 has already been created. Please rename it
+INFO:root:No duplicate groups found, please proceed.
+INFO:root:A group with the name GroupZeta has already been created. Please rename it
+INFO:root:A group with the name GroupIota has already been created. Please rename it
+INFO:root:Created the Group: GroupIota2 with id: c4c6a172-bce2-41eb-8233-f9a51cb6e606
+INFO:root:{'group_id': 'c4c6a172-bce2-41eb-8233-f9a51cb6e606', 'Code': 200, 'Message': 'OK'}
+INFO:root:Created the Group: GroupIota3 with id: 567cd59d-03a9-4f17-8bee-15e1ac800fc8
+INFO:root:{'group_id': '567cd59d-03a9-4f17-8bee-15e1ac800fc8', 'Code': 200, 'Message': 'OK'}
+INFO:root:A group with the name GroupIota2 has already been created. Please rename it
+INFO:root:No duplicate groups found, please proceed.
+INFO:root:Created the Group: Group Barcelona with id: d187ba0b-f4cd-477c-a345-7d90c9139bc9
+INFO:root:{'group_id': 'd187ba0b-f4cd-477c-a345-7d90c9139bc9', 'Code': 200, 'Message': 'OK'}
+INFO:root:Created the Group: Group Roma with id: fe75fff7-8324-47ab-908e-32de9d72ae87
+INFO:root:{'group_id': 'fe75fff7-8324-47ab-908e-32de9d72ae87', 'Code': 200, 'Message': 'OK'}
+INFO:root:The environment https://api2.cloudcheckr.com is not valid. If this is a standalone environment, please add the url to the check_invalid_env function.
+INFO:root:Created the Group: Group Firenze with id: a0f092a5-9234-4e8f-861e-bc625dbe66bf
+INFO:root:{'group_id': 'a0f092a5-9234-4e8f-861e-bc625dbe66bf', 'Code': 200, 'Message': 'OK'}
+INFO:root:Created the Group: Group Milan with id: b0c9c0d9-c8d6-4692-bc15-aa5db4daee25
+INFO:root:{'group_id': 'b0c9c0d9-c8d6-4692-bc15-aa5db4daee25', 'Code': 200, 'Message': 'OK'}

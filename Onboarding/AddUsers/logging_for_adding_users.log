@@ -1,0 +1,62 @@
+INFO:root:                   Environment                                  Email  \
+0  https://api.cloudcheckr.com  alec.rajeev+groups111@cloudcheckr.com   
+1  https://api.cloudcheckr.com  alec.rajeev+groups112@cloudcheckr.com   
+2  https://api.cloudcheckr.com  alec.rajeev+groups113@cloudcheckr.com   
+3  https://api.cloudcheckr.com       david.barnard+ro@cloudcheckr.com   
+4  https://api.cloudcheckr.com            alec.rajeev@cloudcheckr.com   
+5  https://api.cloudcheckr.com  alec.rajeev+groups112@cloudcheckr.com   
+6  https://api.cloudcheckr.com  alec.rajeev+groups115@cloudcheckr.com   
+
+         Role  
+0   BasicUser  
+1   BasicUser  
+2   BasicUser  
+3   BasicUser  
+4   BasicUser  
+5   BasicUser  
+6  BasiccUser  
+INFO:root:Started adding users
+INFO:root:Added the user alec.rajeev+groups111@cloudcheckr.com with the role BasicUser
+INFO:root:{'CreationStatuses': ['Created new user with email: alec.rajeev+groups111@cloudcheckr.com']}
+INFO:root:Added the user alec.rajeev+groups112@cloudcheckr.com with the role BasicUser
+INFO:root:{'CreationStatuses': ['Created new user with email: alec.rajeev+groups112@cloudcheckr.com']}
+INFO:root:Added the user alec.rajeev+groups113@cloudcheckr.com with the role BasicUser
+INFO:root:{'CreationStatuses': ['Created new user with email: alec.rajeev+groups113@cloudcheckr.com']}
+INFO:root:The user david.barnard+ro@cloudcheckr.com already exists in this account, so it was not added
+INFO:root:Failed to add the user alec.rajeev@cloudcheckr.com
+INFO:root:{'Message': 'The request is invalid.', 'ModelState': {'ErrorCode': ['BadRequest'], 'ErrorIdentity': ['6367455506069373376548044e-6f63-4273-acee-cacf0179c139'], 'ErrorMessage': ['A user with provided email already exists.']}}
+INFO:root:The user alec.rajeev+groups112@cloudcheckr.com already exists in this account, so it was not added
+INFO:root:The user alec.rajeev+groups115@cloudcheckr.com was not added because the role BasiccUser does not exist.
+INFO:root:Finished adding users
+INFO:root:                   Environment                                  Email  \
+0  https://api.cloudcheckr.com  alec.rajeev+groups115@cloudcheckr.com   
+1  https://api.cloudcheckr.com  alec.rajeev+groups116@cloudcheckr.com   
+2  https://api.cloudcheckr.com  alec.rajeev+groups117@cloudcheckr.com   
+3  https://api.cloudcheckr.com       david.barnard+ro@cloudcheckr.com   
+4  https://api.cloudcheckr.com  alec.rajeev+groups112@cloudcheckr.com   
+5  https://api.cloudcheckr.com  alec.rajeev+groups111@cloudcheckr.com   
+
+        Role  
+0  BasicUser  
+1  BasicUser  
+2  BasicUser  
+3  BasicUser  
+4  BasicUser  
+5  BasicUser  
+INFO:root:Started adding users
+INFO:root:Added the user alec.rajeev+groups115@cloudcheckr.com with the role BasicUser
+INFO:root:{'CreationStatuses': ['Created new user with email: alec.rajeev+groups115@cloudcheckr.com']}
+INFO:root:Added the user alec.rajeev+groups116@cloudcheckr.com with the role BasicUser
+INFO:root:{'CreationStatuses': ['Created new user with email: alec.rajeev+groups116@cloudcheckr.com']}
+INFO:root:Added the user alec.rajeev+groups117@cloudcheckr.com with the role BasicUser
+INFO:root:{'CreationStatuses': ['Created new user with email: alec.rajeev+groups117@cloudcheckr.com']}
+INFO:root:The user david.barnard+ro@cloudcheckr.com already exists in this account, so it was not added
+INFO:root:The user alec.rajeev+groups112@cloudcheckr.com already exists in this account, so it was not added
+INFO:root:The user alec.rajeev+groups111@cloudcheckr.com already exists in this account, so it was not added
+INFO:root:Finished adding users
+INFO:root:Started adding users
+INFO:root:Added the user alec.rajeev+groupsmilan@cloudcheckr.com with the role BasicUser
+INFO:root:{'CreationStatuses': ['Created new user with email: alec.rajeev+groupsmilan@cloudcheckr.com']}
+INFO:root:The user alec.rajeev+groupsmilan@cloudcheckr.com already exists in this account, so it was not added
+INFO:root:The user alec.rajeev+groupsmilan@cloudcheckr.com already exists in this account, so it was not added
+INFO:root:Finished adding users

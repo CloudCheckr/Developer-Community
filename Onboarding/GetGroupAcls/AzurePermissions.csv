@@ -1,0 +1,55 @@
+Acls,Section,Permission
+536f7e9a-c15f-4952-a289-e870f3a09930[CC_Delimiter]07ac5ec8-c453-494a-b7ed-469e3090b2b5,Generic,See List Costs
+02bcaa5a-7953-4932-88d5-0d54fdf01c51[CC_Delimiter]f3dc0618-c139-4f28-99d5-0f55ac6dead9,Savings,Cost Savings
+5b840bb5-b887-49e6-a8aa-8b7a214946fe[CC_Delimiter]147a029d-7f8c-4467-b7ce-53aac7a7ea9e,BestPractices,Best Practices
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]c6512f4f-5ab6-410b-bfee-e91b4cfacdcb,Inventory,Custom Reports
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]023cc73b-2c8a-49c6-bfaa-ea3010bea825,Inventory,Inventory Summary
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]96bd8797-0019-4703-b7cd-1ae3c6956c31,Inventory,Virtual Machine Summary
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]435af095-10c2-4ecf-978d-534f7a7c6940,Inventory,List of Virtual Machines
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]d6d97225-b47e-44d9-bb62-aba975edfe04,Inventory,Storage Account Summary
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]1bd64805-a1f1-40f0-9d53-620954aa03dc,Inventory,List of Blob Containers
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]2ec4c13c-3d18-4aaf-b369-d2d169aef78b,Inventory,List of Storage Queues
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]36c99dad-2580-481a-9af5-a4be7a12f43c,Inventory,List of Storage Accounts
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]307002fe-f593-46f8-b0a5-c0c148d99e68,Inventory,SQL Server Summary
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]2bb7457c-4f57-4aa9-bf3c-ae9e78747770,Inventory,List of SQL Servers
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]8e8df32a-7110-43fc-9081-15cab420075f,Inventory,Redis Cache Summary
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]138c67b3-2256-485b-963a-e62193c2a174,Inventory,List of Redis Caches
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]926d9d57-8597-4788-83f7-2207a85bdc52,Inventory,Resource Group Summary
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]72b63637-9d14-4bd5-b020-3a9ea81ef4d0,Inventory,List of Resource Groups
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]92c23d35-f41c-40c7-856c-921d6f8cd855,Inventory,App Service Plan Summary
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]0902e4e6-895b-4d62-81ef-452ba3f56704,Inventory,List of App Service Plans
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]0a347d44-eb5d-4ffb-99c8-591e719d3148,Inventory,Traffic Manager Profile Summary
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]a2cb502c-9875-4510-bed6-9c92258d2212,Inventory,List of Traffic Manager Profiles
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]8fc713e7-798c-4dfd-b94f-bf64fe3e474e,Inventory,List of HDInsight Clusters
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]5f2361e8-51eb-4585-ab7c-f4b39094cf92,Inventory,HDInsight Cluster Summary
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]e631dd3c-f0c1-49bb-bb8f-055ace43353e,Inventory,Virtual Machine History by Time
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]ec2626b2-fc0d-4863-a069-059dfc13dfe8,Inventory,History by Virtual Machine
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]a34850bb-9c2b-473f-8d95-fca260e6fe23,Inventory,List of Scale Sets
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]03e9cf21-5701-4bb1-b47b-ed6f75dcf21b,Inventory,Virtual Machine Scale Set Summary
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]aa726f13-c06f-4e10-89aa-2b866b6ddd3e,Inventory,List of Images
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]b10b3180-5e5c-45b1-aae3-ceb0c2d8a64d,Inventory,Image Summary
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]19b297e3-fc64-4ffd-8009-60af848727c9,Inventory,List of ManagedDisks
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]bee542ee-9c20-4d70-a04d-3e2399a04109,Inventory,Managed Disk Summary
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]e4db88b1-f35c-49c7-a531-4dda767ad4d0,Inventory,Snapshot Summary
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]89d569d8-d40b-4016-bae8-f1763900362a,Inventory,List of Snapshots
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]9693ff4a-f88a-4939-b7e1-c1ccd753be47,Inventory,Service Request Summary
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]d8d5c451-2c1a-4d23-9c49-ee8606368ce3,Inventory,List of Service Requests
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]274cdeef-5523-494d-a3c5-60dea6b85990,Inventory,Service Bus Summary
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]30f8479f-d9da-4f7c-aca1-d8bdfbc7e6bd,Inventory,List of Service Buses
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]230caf71-2355-4795-91ce-ea7a0f4c69d5,Inventory,Untagged
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]a6ca8f5c-5941-4651-98b1-e0c0fa8dc473,Inventory,Container Service Summary
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]cdcd83df-40ec-4f6f-bbee-79a0a27ae5d7,Inventory,List of Container Services
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]dc863e01-9c64-4834-a514-7b9c1d7693c6,Inventory,Users Summary
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]f0679ff6-3793-459b-813a-9788a90dad33,Inventory,List of Users
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]85b615cf-267b-4962-8943-4fa89ab6e407,Inventory,Licenses Summary
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]091c169f-0ffd-4a40-8c74-f1b8942dd1d9,Inventory,List of Licenses
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]000a75ec-526e-4364-ada2-79e6a67fcf8b,Inventory,Activity by User
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]4f77df06-7682-488d-9101-dd8870694251,Inventory,Activity by User
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]03fc756e-7e19-44ea-A6c3-8645298ccb28,Inventory,Overall Usage
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]a0c2e399-9846-4e26-8522-0f41914f0422,Inventory,Activity by User
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]e0dc4ee7-7ff0-4277-8d18-274c1903800a,Inventory,Device Usage by User
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]d69ff23f-8d32-4b31-ba8e-ed4a391f85d6,Inventory,Activity by User
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]1bc0bf1c-a734-4b4c-b40d-558a244619c8,Inventory,Activity by User
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]e98493e3-f295-49ff-a7f1-a655b2c986b0,Inventory,Usage by User
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]833c2a9e-3031-4237-a634-97e25a88aa13,Inventory,Activity by User
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]5b67be00-a50b-43a9-8049-c8f6e6a0ad00,Inventory,Overall Usage

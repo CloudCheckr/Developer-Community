@@ -1,0 +1,201 @@
+INFO:root:No Azure Account Permisssions found
+INFO:root:No Azure Mav Account Permisssions found
+INFO:root:No Azure Mav Account Permisssions found
+INFO:root:No Azure Mav Account Permisssions found
+INFO:root:No group_permissions_input.csv found. Please write file for input
+INFO:root:No Azure Mav Account Permisssions found
+INFO:root:No Azure Mav Account Permisssions found
+INFO:root:No Azure Mav Account Permissions found
+INFO:root:No Azure Mav Account Permissions found
+INFO:root:No Azure Mav Account Permissions found
+INFO:root:Failed to add the acls for group: GroupAlpha (group_id: 70995bf9-fe9c-4e0e-a07f-2f6b694c3fd5) for account: Klein
+INFO:root:{'Message': 'The request is invalid.', 'ModelState': {'request.acls': ['An error has occurred.']}}
+INFO:root:Failed to add the acls for group: GroupAlpha (group_id: 70995bf9-fe9c-4e0e-a07f-2f6b694c3fd5) for account: Newman
+INFO:root:{'Message': 'The request is invalid.', 'ModelState': {'request.acls': ['An error has occurred.']}}
+INFO:root:Failed to add the acls for group: GroupAlpha (group_id: 70995bf9-fe9c-4e0e-a07f-2f6b694c3fd5) for account: Azure3
+INFO:root:{'Message': 'The request is invalid.', 'ModelState': {'request.acls': ['An error has occurred.']}}
+INFO:root:No Azure Mav Account Permissions found
+INFO:root:No Azure Mav Account Permissions found
+INFO:root:Failed to add the acls for group: GroupAlpha (group_id: 70995bf9-fe9c-4e0e-a07f-2f6b694c3fd5) for account: Klein
+INFO:root:{'Message': 'The request is invalid.', 'ModelState': {'request.acls': ['An error has occurred.']}}
+INFO:root:Failed to add the acls for group: GroupAlpha (group_id: 70995bf9-fe9c-4e0e-a07f-2f6b694c3fd5) for account: Newman
+INFO:root:{'Message': 'The request is invalid.', 'ModelState': {'request.acls': ['An error has occurred.']}}
+INFO:root:Failed to add the acls for group: GroupAlpha (group_id: 70995bf9-fe9c-4e0e-a07f-2f6b694c3fd5) for account: Azure3
+INFO:root:{'Message': 'The request is invalid.', 'ModelState': {'request.acls': ['An error has occurred.']}}
+INFO:root:No Azure Mav Account Permissions found
+INFO:root:No Azure Mav Account Permissions found
+INFO:root:No Azure Mav Account Permissions found
+INFO:root:Failed to add the acls for group: GroupAlpha (group_id: 70995bf9-fe9c-4e0e-a07f-2f6b694c3fd5) for account: Klein
+INFO:root:{'ErrorCode': 'NotFound', 'ErrorMessage': 'No CC.Data.Model.Group was found with id: 70995bf9-fe9c-4e0e-a07f-2f6b694c3fd5'}
+INFO:root:Failed to add the acls for group: GroupAlpha (group_id: 70995bf9-fe9c-4e0e-a07f-2f6b694c3fd5) for account: Newman
+INFO:root:{'ErrorCode': 'NotFound', 'ErrorMessage': 'No CC.Data.Model.Group was found with id: 70995bf9-fe9c-4e0e-a07f-2f6b694c3fd5'}
+INFO:root:Failed to add the acls for group: GroupAlpha (group_id: 70995bf9-fe9c-4e0e-a07f-2f6b694c3fd5) for account: Azure3
+INFO:root:{'ErrorCode': 'NotFound', 'ErrorMessage': 'No CC.Data.Model.Group was found with id: 70995bf9-fe9c-4e0e-a07f-2f6b694c3fd5'}
+INFO:root:No Azure Mav Account Permissions found
+INFO:root:Added the acls for group: GroupAlpha (group_id: 3ddc2491-b4ea-4e06-9813-6528dc298cae) for account: Klein
+INFO:root:{'Id': '3ddc2491-b4ea-4e06-9813-6528dc298cae', 'Code': 0, 'Message': None}
+INFO:root:Added the acls for group: GroupAlpha (group_id: 3ddc2491-b4ea-4e06-9813-6528dc298cae) for account: Newman
+INFO:root:{'Id': '3ddc2491-b4ea-4e06-9813-6528dc298cae', 'Code': 0, 'Message': None}
+INFO:root:Added the acls for group: GroupAlpha (group_id: 3ddc2491-b4ea-4e06-9813-6528dc298cae) for account: Azure3
+INFO:root:{'Id': '3ddc2491-b4ea-4e06-9813-6528dc298cae', 'Code': 0, 'Message': None}
+INFO:root:No Azure Mav Account Permissions found
+INFO:root:Added the acls for group: GroupAlpha (group_id: 3295eddf-4ebd-4310-a90d-abc8cde83366) for account: Klein
+INFO:root:{'Id': '3295eddf-4ebd-4310-a90d-abc8cde83366', 'Code': 0, 'Message': None}
+INFO:root:Added the acls for group: GroupAlpha (group_id: 3295eddf-4ebd-4310-a90d-abc8cde83366) for account: Newman
+INFO:root:{'Id': '3295eddf-4ebd-4310-a90d-abc8cde83366', 'Code': 0, 'Message': None}
+INFO:root:Added the acls for group: GroupAlpha (group_id: 3295eddf-4ebd-4310-a90d-abc8cde83366) for account: Azure3
+INFO:root:{'Id': '3295eddf-4ebd-4310-a90d-abc8cde83366', 'Code': 0, 'Message': None}
+INFO:root:No Azure Mav Account Permissions found
+INFO:root:Added the acls for group: GroupZeta (group_id: acf2e371-cc52-484f-9da8-e8746e94858b) for account: Klein
+INFO:root:{'Id': 'acf2e371-cc52-484f-9da8-e8746e94858b', 'Code': 0, 'Message': None}
+INFO:root:Added the acls for group: GroupZeta (group_id: acf2e371-cc52-484f-9da8-e8746e94858b) for account: Newman
+INFO:root:{'Id': 'acf2e371-cc52-484f-9da8-e8746e94858b', 'Code': 0, 'Message': None}
+INFO:root:Added the acls for group: GroupZeta (group_id: acf2e371-cc52-484f-9da8-e8746e94858b) for account: Azure3
+INFO:root:{'Id': 'acf2e371-cc52-484f-9da8-e8746e94858b', 'Code': 0, 'Message': None}
+INFO:root:No Azure Mav Account Permissions found
+INFO:root:Added the acls for group: GroupIota (group_id: 86748a14-510a-4aaf-889a-b0b3ba503adb) for account: Klein
+INFO:root:{'Id': '86748a14-510a-4aaf-889a-b0b3ba503adb', 'Code': 0, 'Message': None}
+INFO:root:Added the acls for group: GroupIota (group_id: 86748a14-510a-4aaf-889a-b0b3ba503adb) for account: Newman
+INFO:root:{'Id': '86748a14-510a-4aaf-889a-b0b3ba503adb', 'Code': 0, 'Message': None}
+INFO:root:Added the acls for group: GroupIota (group_id: 86748a14-510a-4aaf-889a-b0b3ba503adb) for account: Azure3
+INFO:root:{'Id': '86748a14-510a-4aaf-889a-b0b3ba503adb', 'Code': 0, 'Message': None}
+INFO:root:No Azure Mav Account Permissions found
+INFO:root:No Azure Mav Account Permissions found
+INFO:root:No Azure Mav Account Permissions found
+INFO:root:No duplicate groups found, please proceed.
+INFO:root:No Azure Mav Account Permissions found
+INFO:root:No duplicate groups found, please proceed.
+INFO:root:No Azure Mav Account Permissions found
+INFO:root:No duplicate groups found, please proceed.
+INFO:root:No Azure Mav Account Permissions found
+INFO:root:No duplicate groups found, please proceed.
+INFO:root:No Azure Mav Account Permissions found
+INFO:root:No duplicate groups found, please proceed.
+INFO:root:No Azure Mav Account Permissions found
+INFO:root:No duplicate groups found, please proceed.
+INFO:root:Failed to add the acls for group: Group Barcelona (group_id: d187ba0b-f4cd-477c-a345-7d90c9139bc9) for account: Klein
+INFO:root:{'Message': 'The request is invalid.', 'ModelState': {'request.acls': ['An error has occurred.']}}
+INFO:root:Failed to add the acls for group: Group Barcelona (group_id: d187ba0b-f4cd-477c-a345-7d90c9139bc9) for account: Newman
+INFO:root:{'Message': 'The request is invalid.', 'ModelState': {'request.acls': ['An error has occurred.']}}
+INFO:root:Could not find a group id for the group with name: Group Barcelona2
+INFO:root:The environment https://api2.cloudcheckr.com is not valid. If this is a standalone environment, please add the url to the check_invalid_env function.
+INFO:root:Could not find an account type for the project_id: 29 skipping row 3
+INFO:root:No Azure Mav Account Permissions found
+INFO:root:No duplicate groups found, please proceed.
+INFO:root:Failed to add the acls for group: Group Barcelona (group_id: d187ba0b-f4cd-477c-a345-7d90c9139bc9) for account: Klein
+INFO:root:{'Message': 'The request is invalid.', 'ModelState': {'request.acls': ['An error has occurred.']}}
+INFO:root:Failed to add the acls for group: Group Barcelona (group_id: d187ba0b-f4cd-477c-a345-7d90c9139bc9) for account: Newman
+INFO:root:{'Message': 'The request is invalid.', 'ModelState': {'request.acls': ['An error has occurred.']}}
+INFO:root:Could not find a group id for the group with name: Group Barcelona2
+INFO:root:The environment https://api2.cloudcheckr.com is not valid. If this is a standalone environment, please add the url to the check_invalid_env function.
+INFO:root:Could not find an account type for the project_id: 29 skipping row 3
+INFO:root:AccountType: AzureMavPermissions has no permissions csv file, so skipping for group Group Barcelona and account AzureMav
+INFO:root:Failed to add the acls for group: Group Barcelona (group_id: d187ba0b-f4cd-477c-a345-7d90c9139bc9) for account: Azure3
+INFO:root:{'Message': 'The request is invalid.', 'ModelState': {'request.acls': ['An error has occurred.']}}
+INFO:root:Could not find a project_id for the account Azure4 skipping row 6
+INFO:root:Failed to add the acls for group: Group Barcelona (group_id: d187ba0b-f4cd-477c-a345-7d90c9139bc9) for account: All Dem Accounts 2
+INFO:root:{'Message': 'The request is invalid.', 'ModelState': {'request.acls': ['An error has occurred.']}}
+INFO:root:No Azure Mav Account Permissions found
+INFO:root:No duplicate groups found, please proceed.
+INFO:root:Failed to add the acls for group: Group Barcelona (group_id: d187ba0b-f4cd-477c-a345-7d90c9139bc9) for account: Klein
+INFO:root:{'Message': 'The request is invalid.', 'ModelState': {'request.acls': ['An error has occurred.']}}
+INFO:root:Failed to add the acls for group: Group Barcelona (group_id: d187ba0b-f4cd-477c-a345-7d90c9139bc9) for account: Newman
+INFO:root:{'Message': 'The request is invalid.', 'ModelState': {'request.acls': ['An error has occurred.']}}
+INFO:root:Could not find a group id for the group with name: Group Barcelona2
+INFO:root:The environment https://api2.cloudcheckr.com is not valid. If this is a standalone environment, please add the url to the check_invalid_env function.
+INFO:root:Could not find an account type for the project_id: 29 skipping row 3
+INFO:root:AccountType: AzureMavPermissions has no permissions csv file, so skipping for group Group Barcelona and account AzureMav
+INFO:root:Failed to add the acls for group: Group Barcelona (group_id: d187ba0b-f4cd-477c-a345-7d90c9139bc9) for account: Azure3
+INFO:root:{'Message': 'The request is invalid.', 'ModelState': {'request.acls': ['An error has occurred.']}}
+INFO:root:Could not find a project_id for the account Azure4 skipping row 6
+INFO:root:Failed to add the acls for group: Group Barcelona (group_id: d187ba0b-f4cd-477c-a345-7d90c9139bc9) for account: All Dem Accounts 2
+INFO:root:{'Message': 'The request is invalid.', 'ModelState': {'request.acls': ['An error has occurred.']}}
+INFO:root:No Azure Mav Account Permissions found
+INFO:root:No duplicate groups found, please proceed.
+INFO:root:Failed to add the acls for group: Group Barcelona (group_id: d187ba0b-f4cd-477c-a345-7d90c9139bc9) for account: Klein
+INFO:root:{'Message': 'The request is invalid.', 'ModelState': {'request.acls': ['An error has occurred.']}}
+INFO:root:Failed to add the acls for group: Group Barcelona (group_id: d187ba0b-f4cd-477c-a345-7d90c9139bc9) for account: Newman
+INFO:root:{'Message': 'The request is invalid.', 'ModelState': {'request.acls': ['An error has occurred.']}}
+INFO:root:Could not find a group id for the group with name: Group Barcelona2
+INFO:root:The environment https://api2.cloudcheckr.com is not valid. If this is a standalone environment, please add the url to the check_invalid_env function.
+INFO:root:Could not find an account type for the project_id: 29 skipping row 3
+INFO:root:AccountType: AzureMavPermissions has no permissions csv file, so skipping for group Group Barcelona and account AzureMav
+INFO:root:Failed to add the acls for group: Group Barcelona (group_id: d187ba0b-f4cd-477c-a345-7d90c9139bc9) for account: Azure3
+INFO:root:{'Message': 'The request is invalid.', 'ModelState': {'request.acls': ['An error has occurred.']}}
+INFO:root:Could not find a project_id for the account Azure4 skipping row 6
+INFO:root:Failed to add the acls for group: Group Barcelona (group_id: d187ba0b-f4cd-477c-a345-7d90c9139bc9) for account: All Dem Accounts 2
+INFO:root:{'Message': 'The request is invalid.', 'ModelState': {'request.acls': ['An error has occurred.']}}
+INFO:root:No Azure Mav Account Permissions found
+INFO:root:No duplicate groups found, please proceed.
+INFO:root:Failed to add the acls for group: Group Barcelona (group_id: d187ba0b-f4cd-477c-a345-7d90c9139bc9) for account: Klein
+INFO:root:{'Message': 'The request is invalid.', 'ModelState': {'request.acls': ['An error has occurred.']}}
+INFO:root:Failed to add the acls for group: Group Barcelona (group_id: d187ba0b-f4cd-477c-a345-7d90c9139bc9) for account: Newman
+INFO:root:{'Message': 'The request is invalid.', 'ModelState': {'request.acls': ['An error has occurred.']}}
+INFO:root:No Azure Mav Account Permissions found
+INFO:root:No duplicate groups found, please proceed.
+INFO:root:Added the acls for group: Group Barcelona (group_id: d187ba0b-f4cd-477c-a345-7d90c9139bc9) for account: Klein
+INFO:root:{'Id': 'd187ba0b-f4cd-477c-a345-7d90c9139bc9', 'Code': 0, 'Message': None}
+INFO:root:Added the acls for group: Group Barcelona (group_id: d187ba0b-f4cd-477c-a345-7d90c9139bc9) for account: Newman
+INFO:root:{'Id': 'd187ba0b-f4cd-477c-a345-7d90c9139bc9', 'Code': 0, 'Message': None}
+INFO:root:Could not find a group id for the group with name: Group Barcelona2
+INFO:root:The environment https://api2.cloudcheckr.com is not valid. If this is a standalone environment, please add the url to the check_invalid_env function.
+INFO:root:Could not find an account type for the project_id: 29 skipping row 3
+INFO:root:AccountType: AzureMavPermissions has no permissions csv file, so skipping for group Group Barcelona and account AzureMav
+INFO:root:Added the acls for group: Group Barcelona (group_id: d187ba0b-f4cd-477c-a345-7d90c9139bc9) for account: Azure3
+INFO:root:{'Id': 'd187ba0b-f4cd-477c-a345-7d90c9139bc9', 'Code': 0, 'Message': None}
+INFO:root:Could not find a project_id for the account Azure4 skipping row 6
+INFO:root:Added the acls for group: Group Barcelona (group_id: d187ba0b-f4cd-477c-a345-7d90c9139bc9) for account: All Dem Accounts 2
+INFO:root:{'Id': 'd187ba0b-f4cd-477c-a345-7d90c9139bc9', 'Code': 0, 'Message': None}
+INFO:root:No Azure Mav Account Permissions found
+INFO:root:No duplicate groups found, please proceed.
+INFO:root:Added the acls for group: Group Roma (group_id: fe75fff7-8324-47ab-908e-32de9d72ae87) for account: Klein
+INFO:root:{'Id': 'fe75fff7-8324-47ab-908e-32de9d72ae87', 'Code': 0, 'Message': None}
+INFO:root:Added the acls for group: Group Roma (group_id: fe75fff7-8324-47ab-908e-32de9d72ae87) for account: Newman
+INFO:root:{'Id': 'fe75fff7-8324-47ab-908e-32de9d72ae87', 'Code': 0, 'Message': None}
+INFO:root:Could not find a group id for the group with name: Group Roma2
+INFO:root:The environment https://api2.cloudcheckr.com is not valid. If this is a standalone environment, please add the url to the check_invalid_env function.
+INFO:root:Could not find an account type for the project_id: 29 skipping row 3
+INFO:root:AccountType: AzureMavPermissions has no permissions csv file, so skipping for group Group Roma and account AzureMav
+INFO:root:Added the acls for group: Group Roma (group_id: fe75fff7-8324-47ab-908e-32de9d72ae87) for account: Azure3
+INFO:root:{'Id': 'fe75fff7-8324-47ab-908e-32de9d72ae87', 'Code': 0, 'Message': None}
+INFO:root:Could not find a project_id for the account Azure4 skipping row 6
+INFO:root:Added the acls for group: Group Roma (group_id: fe75fff7-8324-47ab-908e-32de9d72ae87) for account: All Dem Accounts 2
+INFO:root:{'Id': 'fe75fff7-8324-47ab-908e-32de9d72ae87', 'Code': 0, 'Message': None}
+INFO:root:No Azure Mav Account Permissions found
+INFO:root:No duplicate groups found, please proceed.
+INFO:root:Added the acls for AccountType: AwsPermissions for group: Group Milan (group_id: b0c9c0d9-c8d6-4692-bc15-aa5db4daee25) for account: Klein
+INFO:root:{'Id': 'b0c9c0d9-c8d6-4692-bc15-aa5db4daee25', 'Code': 0, 'Message': None}
+INFO:root:
+INFO:root:Added the acls for AccountType: AwsPermissions for group: Group Milan (group_id: b0c9c0d9-c8d6-4692-bc15-aa5db4daee25) for account: Newman
+INFO:root:{'Id': 'b0c9c0d9-c8d6-4692-bc15-aa5db4daee25', 'Code': 0, 'Message': None}
+INFO:root:
+INFO:root:Could not find a group id for the group with name: Group Milan2
+INFO:root:The environment https://api2.cloudcheckr.com is not valid. If this is a standalone environment, please add the url to the check_invalid_env function.
+INFO:root:Could not find an account type for the project_id: 29 skipping row 3
+INFO:root:AccountType: AzureMavPermissions has no permissions csv file, so skipping for group Group Milan and account AzureMav
+INFO:root:Added the acls for AccountType: AzurePermissions for group: Group Milan (group_id: b0c9c0d9-c8d6-4692-bc15-aa5db4daee25) for account: Azure3
+INFO:root:{'Id': 'b0c9c0d9-c8d6-4692-bc15-aa5db4daee25', 'Code': 0, 'Message': None}
+INFO:root:
+INFO:root:Could not find a project_id for the account Azure4 skipping row 6
+INFO:root:Added the acls for AccountType: AwsMavPermissions for group: Group Milan (group_id: b0c9c0d9-c8d6-4692-bc15-aa5db4daee25) for account: All Dem Accounts 2
+INFO:root:{'Id': 'b0c9c0d9-c8d6-4692-bc15-aa5db4daee25', 'Code': 0, 'Message': None}
+INFO:root:
+INFO:root:No Azure Mav Account Permissions found
+INFO:root:No duplicate groups found, please proceed.
+INFO:root:Added the acls for AccountType: AwsPermissions for group: Group Firenze (group_id: a0f092a5-9234-4e8f-861e-bc625dbe66bf) for account: Klein
+INFO:root:{'Id': 'a0f092a5-9234-4e8f-861e-bc625dbe66bf', 'Code': 0, 'Message': None}
+INFO:root:
+INFO:root:Added the acls for AccountType: AwsPermissions for group: Group Firenze (group_id: a0f092a5-9234-4e8f-861e-bc625dbe66bf) for account: Newman
+INFO:root:{'Id': 'a0f092a5-9234-4e8f-861e-bc625dbe66bf', 'Code': 0, 'Message': None}
+INFO:root:
+INFO:root:Could not find a group id for the group with name: Group Firenze2 skipping row 4
+INFO:root:The environment https://api2.cloudcheckr.com is not valid. If this is a standalone environment, please add the url to the check_invalid_env function.
+INFO:root:Could not get the account type for the account name: 183698509299 for the project_id: 29 skipping row 5
+INFO:root:AccountType: AzureMavPermissions has no permissions csv file, so skipping for group Group Firenze and account AzureMav
+INFO:root:Added the acls for AccountType: AzurePermissions for group: Group Firenze (group_id: a0f092a5-9234-4e8f-861e-bc625dbe66bf) for account: Azure3
+INFO:root:{'Id': 'a0f092a5-9234-4e8f-861e-bc625dbe66bf', 'Code': 0, 'Message': None}
+INFO:root:
+INFO:root:Could not find a project_id for the account Azure4 skipping row 8
+INFO:root:Added the acls for AccountType: AwsMavPermissions for group: Group Firenze (group_id: a0f092a5-9234-4e8f-861e-bc625dbe66bf) for account: All Dem Accounts 2
+INFO:root:{'Id': 'a0f092a5-9234-4e8f-861e-bc625dbe66bf', 'Code': 0, 'Message': None}
+INFO:root:
