@@ -1,0 +1,9 @@
+Successfully created the account AlecAccount with external_id CC-00000000000000000000000000000000
+{'account_status': 'Success', 'cc_account_id': 44, 'credential_status': 'No credentials given. Can use the following role_account_id and role_external_id to create cross-account role within AWS.', 'role_account_id': '352813966189', 'cc_external_id': 'CC-00000000000000000000000000000000'}
+{'StackId': 'arn:aws:cloudformation:us-east-1:020403522555:stack/cc-iam-stack-api/0117a3a0-eb69-11e8-80fa-50fae98974fd', 'ResponseMetadata': {'RequestId': '67d907a9-eb69-11e8-8e73-673b8c90e28b', 'HTTPStatusCode': 200, 'HTTPHeaders': {'x-amzn-requestid': '67d907a9-eb69-11e8-8e73-673b8c90e28b', 'content-type': 'text/xml', 'content-length': '386', 'date': 'Sun, 18 Nov 2018 19:37:37 GMT'}, 'RetryAttempts': 0}}
+Built in wait of 30 seconds to allow stack to be created
+Created a RoleArn
+Created arn:aws:iam::020403522555:role/cc-iam-stack-api-IamRole-1MGTKVEC1888L
+Found role. Waiting 10 seconds before adding to CloudCheckr.
+Successfully added the role arn:aws:iam::020403522555:role/cc-iam-stack-api-IamRole-1MGTKVEC1888L to the CloudCheckr Account AlecAccount
+{'Code': 200, 'Message': 'OK'}
