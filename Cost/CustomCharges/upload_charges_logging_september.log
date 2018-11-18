@@ -1,0 +1,28 @@
+INFO:root:[('183698509299', '-0.00520548', '2018-07-01', '2018-07-01', 'Custom Charge 1')
+ ('260172486890', '30.001', '2018-07-01', '2018-07-01', 'Custom Charge 2')
+ ('318100514071', '43.221', '2018-07-01', '2018-07-01', 'Custom Charge 3')
+ ('260172486890', '-0.00520548', '2018-07-01', '2018-07-01', 'Custom Charge 4')
+ ('318100514071', '-0.00520548', '2018-07-01', '2018-07-01', 'Custom Charge 5')]
+INFO:root:
+
+INFO:root:Added the custom charge Custom Charge 1 with the amount -0.00520548 for the AWS Account 183698509299 with a start date of 2018-07-01
+INFO:root:{'Id': 7, 'Code': 200, 'Message': 'OK'}
+INFO:root:
+
+INFO:root:Added the custom charge Custom Charge 2 with the amount 30.001 for the AWS Account 260172486890 with a start date of 2018-07-01
+INFO:root:{'Id': 8, 'Code': 200, 'Message': 'OK'}
+INFO:root:
+
+INFO:root:Added the custom charge Custom Charge 3 with the amount 43.221 for the AWS Account 318100514071 with a start date of 2018-07-01
+INFO:root:{'Id': 9, 'Code': 200, 'Message': 'OK'}
+INFO:root:
+
+INFO:root:Added the custom charge Custom Charge 4 with the amount -0.00520548 for the AWS Account 260172486890 with a start date of 2018-07-01
+INFO:root:{'Id': 10, 'Code': 200, 'Message': 'OK'}
+INFO:root:
+
+INFO:root:Added the custom charge Custom Charge 5 with the amount -0.00520548 for the AWS Account 318100514071 with a start date of 2018-07-01
+INFO:root:{'Id': 11, 'Code': 200, 'Message': 'OK'}
+INFO:root:
+
+INFO:root:Saved custom charge id's added to added_charges.csv
