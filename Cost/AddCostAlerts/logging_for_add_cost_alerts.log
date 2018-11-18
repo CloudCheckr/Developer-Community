@@ -1,0 +1,38 @@
+INFO:root:Started adding cost alerts
+INFO:root:Successfully added the cost alert Onboarding Alert Api to the CloudCheckr account with id 23
+INFO:root:{'Code': 200, 'Message': 'OK'}
+INFO:root:
+INFO:root:Successfully added the cost alert Onboarding Alert Api to the CloudCheckr account with id 24
+INFO:root:{'Code': 200, 'Message': 'OK'}
+INFO:root:
+INFO:root:Successfully added the cost alert Onboarding Alert Api to the CloudCheckr account with id 25
+INFO:root:{'Code': 200, 'Message': 'OK'}
+INFO:root:
+INFO:root:Successfully added the cost alert Onboarding Alert Api to the CloudCheckr account with id 29
+INFO:root:{'Code': 200, 'Message': 'OK'}
+INFO:root:
+INFO:root:Successfully added the cost alert Onboarding Alert Api to the CloudCheckr account with id 30
+INFO:root:{'Code': 200, 'Message': 'OK'}
+INFO:root:
+INFO:root:Successfully added the cost alert Onboarding Alert Api to the CloudCheckr account with id 31
+INFO:root:{'Code': 200, 'Message': 'OK'}
+INFO:root:
+INFO:root:Successfully added the cost alert Onboarding Alert Api to the CloudCheckr account with id 32
+INFO:root:{'Code': 200, 'Message': 'OK'}
+INFO:root:
+INFO:root:Successfully added the cost alert Onboarding Alert Api to the CloudCheckr account with id 33
+INFO:root:{'Code': 200, 'Message': 'OK'}
+INFO:root:
+INFO:root:Successfully added the cost alert Onboarding Alert Api to the CloudCheckr account with id 34
+INFO:root:{'Code': 200, 'Message': 'OK'}
+INFO:root:
+INFO:root:Successfully added the cost alert Onboarding Alert Api to the CloudCheckr account with id 38
+INFO:root:{'Code': 200, 'Message': 'OK'}
+INFO:root:
+INFO:root:Successfully added the cost alert Onboarding Alert Api to the CloudCheckr account with id 44
+INFO:root:{'Code': 200, 'Message': 'OK'}
+INFO:root:
+INFO:root:Successfully added the cost alert Onboarding Alert Api to the CloudCheckr account with id 45
+INFO:root:{'Code': 200, 'Message': 'OK'}
+INFO:root:
+INFO:root:Finished adding cost alerts
