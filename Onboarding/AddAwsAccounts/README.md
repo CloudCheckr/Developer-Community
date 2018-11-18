@@ -12,12 +12,13 @@
 5. Create an access key from that user and add to a profile on your local machine.
 6. Create a new local profile for that role and specify that user as what should be used to assume the role. This profile will have a name that is an input value to the script. https://boto3.amazonaws.com/v1/documentation/api/latest/guide/configuration.html (alternatively you can name it something else, you just have to edit the create_iam_role_from_cloud_formation() function to have to new profile name)
 7. Log in to CloudCheckr and create an Admin API access key.
-8. Run python add_account.py <profile_name> <cloudcheckr-admin-api-key> <cloudcheckr-account-name> <cloudtrail-bucket> <dbr-bucket>
+8. Run python add_account.py <profile_name> <cloudcheckr-admin-api-key> <cloudcheckr-account-name> <cloudtrail-bucket> <dbr-bucket> <cur-bucket>
 The profile_name is the name of the profile that is saved to the local machine. This profile should either be a user or a role that has IAM Admin permissions and create CloudFormation stack permissions.
 The name CloudCheckr admin api key is a 64 character string.
 The CloudCheckr Account name is the name of the new account in CloudCheckr. This account name should be unique.
 The cloudtrail-bucket-name is the name of the s3 bucket with cloudtrail data. If this is blank, then no cloudtrail data will be added.
 The billing-bucket-name is the name of the s3 bucket with the DBR. For payee accounts this can be left blank.
+The cur-bucket is the name of the s3 bucket with the CUR. For payee accounts this can be left blank.
 The bucket names are optional, but the admin api key and account name are required.
 9. Output will log the actions done.
 
@@ -39,5 +40,5 @@ The third step is to use [edit_credential](https://support.cloudcheckr.com/cloud
 
 1. The environment https://api.cloudcheckr.com is being used. This can be adjusted on line 181 if required.
 2. The machine that is running the computer has an AWS credentials profile. This profile is an input to the script. This user or role has the permissions to create stacks and create IAM roles/policies.
-3. Program only allows for adding a CloudTrail bucket, but not a DBR bucket. If you want to add a DBR bucket, but not a CloudTrail bucket you can adjust the inputs around lines 161 to 172 to account for this.
+3. Program only allows for adding a CloudTrail bucket, but not a DBR bucket. If you want to add a DBR bucket, but not a CloudTrail bucket you can adjust the inputs around lines 161 to 172 to account for this or just use an example bucket name such as cloudtrailbucket.
 4. These accounts are only commercial accounts. GovCloud accounts will require adding them through the UI.
