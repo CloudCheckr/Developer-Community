@@ -1,0 +1,189 @@
+Acls,Section,Permission
+536f7e9a-c15f-4952-a289-e870f3a09930[CC_Delimiter]07ac5ec8-c453-494a-b7ed-469e3090b2b5,Generic,See List Costs
+02bcaa5a-7953-4932-88d5-0d54fdf01c51[CC_Delimiter]cedd1593-75d5-48d1-a48c-e17cbaa80fec,Savings,Cost Savings
+5b840bb5-b887-49e6-a8aa-8b7a214946fe[CC_Delimiter]81dde191-03cf-46f2-b07f-84314342b0f0,BestPractices,Best Practices
+b6212510-f809-4079-a097-7f887ed62de0[CC_Delimiter]b029c3b2-f536-4440-9c75-5279824b48ea,Cost,Advanced Grouping (w/ tags)
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]bde7a10b-6e76-4ce5-918c-5c4821b4f3bd,Inventory,Inventory Summary
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]4adf637d-667a-4530-a6a4-e8b4e5fcd340,Inventory,Map Overlay
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]08d18f15-1e86-40f7-bc8f-37f8bc27f1b7,Inventory,Tagged Resources
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]b6fdd6d2-9d58-4ee4-8e08-807921c61b33,Inventory,Untagged Resources
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]d2596083-4b88-4193-8465-17c5a742c0b7,Inventory,Custom Report Builder
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]47725042-a125-4659-a960-33e88e04ddc0,Inventory,Custom Reports
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]7e5b7b51-d0eb-41d3-af9e-22d8c3035af4,Inventory,EC2 History by Time
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]f9f2bf21-d349-4f20-8b25-59a579e77e30,Inventory,EC2 History by Instance
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]75bbbcdd-b1c3-476e-9970-6396417a697b,Inventory,EC2 Instances Trending
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]4be91d19-5671-48b0-9d19-399c30fe5a4b,Inventory,EC2 Other Trending
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]f1a42f26-fb2e-445a-afcc-f504c7f6b9eb,Inventory,S3 Trending
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]e888988e-2b78-4bb0-adb2-153f0dc98b12,Inventory,RDS Trending
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]271b8143-1b51-46fe-88d3-1309bf6d0ede,Inventory,Glacier Trending
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]71f8592b-d20f-45a2-96d9-a880e62904c9,Inventory,Support Cases Trending
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]a3b26d8c-fe4e-4999-9fe2-7e6dcb98f4e3,Inventory,EC2 Summary
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]ac674385-338f-457c-9107-08ad2b97da93,Inventory,List of EC2 Instances
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]f0bb65ec-7150-4665-b0ad-0d40a8e37330,Inventory,EBS Summary
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]231659c9-41b3-40dd-b5b5-51aa4426d54b,Inventory,List of EBS Volumes
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]6126384d-29e1-4f0b-a09a-2d0f838bbd53,Inventory,List of EBS Snapshots
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]5c1a861c-ae31-4de3-8f3d-2441582671d1,Inventory,AMI Summary
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]2ca6ca00-75bf-4866-9a66-39a5b643aadc,Inventory,List of EC2 AMIs
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]7e75112d-6985-405b-8f62-255d83fde578,Inventory,Load Balancer Summary
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]539dde6b-59af-4fd1-96a0-927879077f57,Inventory,List of Load Balancers
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]f08e89ba-54a3-433d-8d40-19fa715564f1,Inventory,Auto Scaling Summary
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]76f19130-ceea-41f9-bbff-d243a18eae29,Inventory,Auto Scaling Groups
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]553b38ca-3c2b-4d09-8b73-759d124a007b,Inventory,Auto Scaling Launch Configurations
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]b32c1b01-f65a-494c-87c1-0ff3cb2c7bed,Inventory,Elastic IP Summary
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]1c4835b3-a043-4c8e-90ce-e6b20b0f216f,Inventory,List of Elastic IPs
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]0526f1c4-54de-41d8-a990-140c5c757efd,Inventory,S3 Summary
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]69a370b2-d0f0-43c6-a8e6-1b1486e700a6,Inventory,List of Buckets
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]b42a86c1-9272-4cfe-8373-dac906e7268a,Inventory,Exclude Buckets
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]62f40e57-399f-47e6-91dd-20b5af7eedac,Inventory,RDS Summary
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]b2ee7174-54e9-4149-8d9d-933bb7400c0d,Inventory,List of DB Instances
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]20da0016-13e2-4b6b-8f9c-6b5b8212fa5d,Inventory,RDS Backup Summary
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]c6961e1d-538c-4374-bd3a-293666d92d83,Inventory,List of RDS Backups
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]51ab0cc7-b8ab-4d0a-ad88-f3b85bf1a6d5,Inventory,RDS Parameter Group Summary
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]346b1522-2fe1-4386-823c-e1dc9526880f,Inventory,List of RDS Parameter Groups
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]c4a875c6-ae1f-4ab9-87cf-e070de6e15b6,Inventory,RDS Snapshot Summary
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]fd05739d-dcaa-4fc3-99c7-95cfca9c64d0,Inventory,List of RDS Snapshots
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]d59cb02f-bf2a-45e4-9063-a2414b2acd07,Inventory,Certificate Manager (ACM) Summary
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]dbb327e9-f007-48fb-a312-c48778cf1a14,Inventory,List of ACM Certificates
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]6b4d66f8-0de3-480f-bdf2-12ca844ace21,Inventory,CloudFormation Summary
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]de28e4f7-cdae-41ad-be31-3159aa30c8c6,Inventory,List of CloudFormation Stacks
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]4d07aad9-c454-44a9-97ff-b159f668f04b,Inventory,CloudFront Summary
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]1e010ed0-193c-48ae-ac18-184c16265283,Inventory,List of CloudFront Distributions
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]a1944c19-46de-49e9-bf7d-149b1da22024,Inventory,CloudSearch Summary
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]22cfd335-8411-4efc-9b16-3ccbae9d0bea,Inventory,List of CloudSearch Domains
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]abb4fe06-ea26-4f88-8d18-e2e0449472d8,Inventory,Data Pipeline Summary
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]d90bbeb5-b8fb-46cc-a647-0ada84848841,Inventory,List of Data Pipes
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]5367a962-29ce-4420-aba6-b695d500b7cc,Inventory,DynamoDB Summary
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]65c349e2-2149-48f9-926e-32f76451065a,Inventory,List of DynamoDB Tables
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]6d454e73-4624-4938-9e13-550dbde8f8ca,Inventory,ElastiCache Summary
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]7c9c37a0-aae4-4f5f-813c-ac3ec27bd15e,Inventory,List of ElastiCache Clusters
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]bcf6dabc-f4bf-4bed-b88e-976f4d7e91f9,Inventory,List of ElastiCache Nodes
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]d21333cd-c512-4636-95f1-9b7d88f4c066,Inventory,Elastic Beanstalk Summary
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]f188574b-871e-44fc-82e5-0a4b4931220c,Inventory,List of Elastic Beanstalk Applications
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]252f7959-8fd6-48f1-80fb-fe3f2dbf959d,Inventory,Elastic MapReduce Summary
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]711c6fc3-c4cc-42c0-ab14-7172fce7de8d,Inventory,List of Elastic MapReduce Clusters
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]9f071ae0-7a27-47cf-8d50-cbcbfac128ce,Inventory,Glacier Summary
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]f73a4a40-cecb-4e90-8b86-2d2ccb50d1c8,Inventory,List of Glacier Vaults
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]00e32e57-2d6d-41c8-8f4f-3bfba67fb010,Inventory,Identity and Access Management (IAM) Summary
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]e3d06dc5-3cb2-4be9-ae15-65abb69cf9c1,Inventory,List of IAM Users
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]948f5c84-88d8-4819-9fc3-662545ab706b,Inventory,List of IAM Groups
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]a226d460-173c-48b4-bdd2-1070d392c862,Inventory,List of IAM Roles
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]f9fde4a6-f7e1-4c73-b9ea-1b2c6193ce55,Inventory,List of IAM Policies
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]e18e5f91-66f2-4212-afb9-cd0690ce971b,Inventory,List of Open ID Connect Providers
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]e6b040f5-18ed-47e5-b761-23ff1120352a,Inventory,List of SAML Providers
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]715062af-5232-4b41-9374-cd107054f956,Inventory,List of Virtual MFA Devices
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]c2488ef5-1bcb-4394-87c6-6032659b34c5,Inventory,Kinesis Summary
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]e121808b-b928-4fe9-988a-69fbc2aaeec7,Inventory,List of Kinesis Streams
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]636742fc-1097-47c4-9877-29c3ca4b2cb2,Inventory,Key Management Service (KMS) Summary
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]d7b75d70-d34f-424e-b023-7b5de5047fcd,Inventory,List of KMS Keys
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]507ae9fd-2ecb-488b-b587-d1764fe211ab,Inventory,Lambda Summary
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]36589f91-9df2-48dc-a024-41ae5051e123,Inventory,List of Lambda Functions
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]e4bd955f-3f36-4213-a393-0a9afb680df6,Inventory,Redshift Summary
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]89ae5642-7d10-40e4-ae0c-10191cfac79b,Inventory,List of Redshift Clusters
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]111eca8a-a0e5-4c73-8400-98dd536dee71,Inventory,Route53 Summary
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]45ccdf7d-f92e-48c8-baf6-81831c272ffd,Inventory,List of Route53 Hosted Zones
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]f19712c8-8283-436e-956b-5625dd992b63,Inventory,List of Route53 Health Checks
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]d3ef0773-5054-4948-b341-be2d44357d1f,Inventory,Simple Email Service (SES) Summary
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]22ce591f-5dc7-4d60-82a9-15204836fc51,Inventory,Simple Domain Service (SES) Summary
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]52178566-f615-40c6-b42a-4db0be8922f7,Inventory,List of SES Emails
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]9a807244-42af-4936-b780-4688e66e1f6a,Inventory,List of SES Domains
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]1722f34d-0e53-4efc-8516-3d686c4724f5,Inventory,SimpleDB Summary
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]8965afd6-69d0-4e11-9b0b-af5ad255d7a5,Inventory,List of SimpleDB Domains
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]4d08f648-7778-4395-b203-b7ddac0cde81,Inventory,Simple Queue Service (SQS) Summary
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]e1d62cd6-8e1a-43a8-8786-550082967d7d,Inventory,List of SQS Queues
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]91d65b74-7d80-4737-bd18-1d0192b0cea7,Inventory,Storage Gateway Summary
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]c77ea52e-2f46-4d18-a6c9-44649eb49a61,Inventory,List of Storage Gateways
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]3e5631cf-c786-4150-87f0-5a4bb8bf5f8c,Inventory,AWS Support Case Summary
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]23dd0861-affd-4ff0-83d0-f485d8bd6373,Inventory,List of AWS Support Cases
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]58551417-bae7-4099-bfce-e9d5ddb45078,Inventory,Simple Notification Service (SNS) Summary
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]2d83f303-3787-4f0a-b166-552899498004,Inventory,List of SNS Topics
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]155ddbd1-55ed-419d-803f-1863ac8327c9,Inventory,Simple Workflow Service (SWF) Summary
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]eb861b3e-d7ea-46ca-8f90-fc449deddbd0,Inventory,List of SWF Domains
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]87d50a0d-9fbc-4821-9190-9cfade982fcd,Inventory,WorkSpaces Summary
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]76698ec2-8443-40b8-ac06-08a2306b8984,Inventory,List of WorkSpaces
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]f0c47e54-3b5f-4842-b1ab-06c908ca561e,Inventory,List of WorkSpaces Directories
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]688dabf1-d689-4a9b-b5b2-104ac6a938c9,Inventory,CloudHSM Summary
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]d4a75e4f-9f79-46b6-ac42-8ff79f4ab83f,Inventory,List of CloudHSM
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]dd574f5c-18a9-4ba4-ba70-0b6b3542d425,Inventory,List of HA Partition Groups
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]2e02085b-cb28-4b84-ab45-ad751957706f,Inventory,List of Luna Clients
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]d6125b06-9d77-4c82-b535-a356d2f79822,Inventory,CloudWatch Alarm Summary
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]d6c6ff55-fc9d-4fb9-8fd6-41a5fea2e8de,Inventory,List of CloudWatch Alarms
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]51ba4037-a6c1-477f-8c9e-f12c7db2867c,Inventory,Direct Connect Summary
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]07ddb121-9e65-48f4-9a81-309766c591b4,Inventory,List of Connections
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]8aa9183c-4340-4070-8b50-18ee5d6d4f35,Inventory,List of Virtual Interfaces
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]fc4af808-54a2-4203-814d-1513c5c0c249,Inventory,Elastic Container Service (ECS) Summary
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]914327e3-37e6-4bf5-a1ba-caf7e882d56a,Inventory,List of Elastic Container Service
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]5f378752-123c-4bec-bd8d-ffd858285033,Inventory,List of Task Definitions
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]7e158673-a6e9-473b-9f62-b252dfd6a994,Inventory,Kinesis Summary
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]e5c59d38-f3a1-4aac-aa48-a9823c1413ed,Inventory,List of Elasticsearch Domains
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]16b586a1-4459-46e1-b348-8c24dd5cfb7f,Inventory,IoT Summary
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]8233e03f-6bfe-4473-8185-3860198d8e01,Inventory,List of IoT Things
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]10d94ba7-8ddd-47ba-a7be-d995922c3333,Inventory,List of Instances
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]e57ceaa7-23ca-435e-8e14-c8e69f05bb13,Inventory,EC2 System Manger Instance Summary
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]4b9f8948-7703-4fbd-8833-6cafbd3a35c1,Inventory,List of Elastic File Systems
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]ca55d536-ed0c-46e7-a08c-6ee5569eddfd,Inventory,Elastic File Systems Summary
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]09d956c0-2b6f-4406-ac18-93bb56e653b1,Inventory,Cognito User Pool Summary
+dd82ecd7-c590-490f-9b3a-f22990a1b500[CC_Delimiter]bc1ea665-06b3-4d3d-b048-3fe027a3ca8f,Inventory,List of User Pools
+0ad99c49-31e9-499c-9616-c7aa5b8dcaf9[CC_Delimiter]7567880f-c614-4811-b126-5d9cb9b2a824,Security,CloudTrail Summary
+0ad99c49-31e9-499c-9616-c7aa5b8dcaf9[CC_Delimiter]d5ceb25e-88a4-4c6e-b191-5319239a04fa,Security,List of Trails
+0ad99c49-31e9-499c-9616-c7aa5b8dcaf9[CC_Delimiter]752ae315-a051-49c0-af94-a0a55c5d412d,Security,CloudTrail Common Searches
+0ad99c49-31e9-499c-9616-c7aa5b8dcaf9[CC_Delimiter]af26b0d3-ff94-4a8e-8842-e0bc877f5f31,Security,CloudTrail Events
+0ad99c49-31e9-499c-9616-c7aa5b8dcaf9[CC_Delimiter]d856974a-aab5-42dc-860f-f037ad256a7a,Security,CloudTrail Setup
+0ad99c49-31e9-499c-9616-c7aa5b8dcaf9[CC_Delimiter]f69a427e-5bb7-43bf-82e1-0a73d7487a81,Security,AWS Config Summary
+0ad99c49-31e9-499c-9616-c7aa5b8dcaf9[CC_Delimiter]cb8b56e7-ca06-4d7d-b7a6-aed8084aa806,Security,List of Configuration Recorders
+0ad99c49-31e9-499c-9616-c7aa5b8dcaf9[CC_Delimiter]35c5cc1d-9e52-44af-be82-62b6d85eb603,Security,List of Delivery Channels
+0ad99c49-31e9-499c-9616-c7aa5b8dcaf9[CC_Delimiter]8d4cbf6d-2f86-4f15-9832-79de0ef1c3dd,Security,AWS Config Common Searches
+0ad99c49-31e9-499c-9616-c7aa5b8dcaf9[CC_Delimiter]d7feb85d-6977-47d8-b640-e0559cf7318d,Security,AWS Config Resource Changes
+0ad99c49-31e9-499c-9616-c7aa5b8dcaf9[CC_Delimiter]543cab53-54fd-4087-891a-5d2ab90ecd26,Security,AWS Config Configuration History
+0ad99c49-31e9-499c-9616-c7aa5b8dcaf9[CC_Delimiter]3a5b9f4d-13d6-49af-ab49-405c4b82e1e9,Security,AWS Config Snapshots
+0ad99c49-31e9-499c-9616-c7aa5b8dcaf9[CC_Delimiter]84efe0e6-38e3-4422-b2d5-7f280a0168f6,Security,VPC Summary
+0ad99c49-31e9-499c-9616-c7aa5b8dcaf9[CC_Delimiter]9cd7ce1e-fc10-4e8c-ba24-ac1d0ee37f73,Security,List of VPCs
+0ad99c49-31e9-499c-9616-c7aa5b8dcaf9[CC_Delimiter]f6e7fb85-b337-40bc-9e0e-54eaacb87f71,Security,List of VPC Resources
+0ad99c49-31e9-499c-9616-c7aa5b8dcaf9[CC_Delimiter]aadeb359-0f40-4a74-89d2-dd285205ffde,Security,VPC Traffic Analysis
+0ad99c49-31e9-499c-9616-c7aa5b8dcaf9[CC_Delimiter]01bc8352-e497-4ae0-a9b0-ed7eeffdfb5e,Security,Network ACL Common Searches
+0ad99c49-31e9-499c-9616-c7aa5b8dcaf9[CC_Delimiter]5fe1c301-4be7-41d1-9710-1090198dce9c,Security,Subnets Summary
+0ad99c49-31e9-499c-9616-c7aa5b8dcaf9[CC_Delimiter]a194f1b6-499b-400f-a3d0-dc137f0564d9,Security,List of Subnets
+0ad99c49-31e9-499c-9616-c7aa5b8dcaf9[CC_Delimiter]60c795fc-59d4-44a8-a3bd-4ffefa7f08e7,Security,VPC Endpoints Summary
+0ad99c49-31e9-499c-9616-c7aa5b8dcaf9[CC_Delimiter]2800d05b-ca75-4f24-9f3c-b6d9b6206479,Security,List of Endpoints
+0ad99c49-31e9-499c-9616-c7aa5b8dcaf9[CC_Delimiter]f6b6de32-3ec5-4df9-a7eb-06423c1bf422,Security,Network ACL Summary
+0ad99c49-31e9-499c-9616-c7aa5b8dcaf9[CC_Delimiter]b6ed3653-7812-4a9d-b595-635c6c617484,Security,List of Network ACLs
+0ad99c49-31e9-499c-9616-c7aa5b8dcaf9[CC_Delimiter]5ec7e6f6-6755-4543-a911-2bda370a5731,Security,Peering Connection Summary
+0ad99c49-31e9-499c-9616-c7aa5b8dcaf9[CC_Delimiter]83006889-9400-4722-aebb-495a95c7d036,Security,List of Peering Connections
+0ad99c49-31e9-499c-9616-c7aa5b8dcaf9[CC_Delimiter]e7a2fabc-e017-48af-a969-5f018e56dbcc,Security,Route Tables Summary
+0ad99c49-31e9-499c-9616-c7aa5b8dcaf9[CC_Delimiter]080dc016-c159-47a0-96b0-3c5202c858c1,Security,List of Route Tables
+0ad99c49-31e9-499c-9616-c7aa5b8dcaf9[CC_Delimiter]45d3100b-7cfc-4b0d-94a4-3e293a335342,Security,VPN Gateways Summary
+0ad99c49-31e9-499c-9616-c7aa5b8dcaf9[CC_Delimiter]6aa2e8c6-4fcb-477d-8a93-08855719f328,Security,List of VPN Gateways
+0ad99c49-31e9-499c-9616-c7aa5b8dcaf9[CC_Delimiter]1a834c47-e84d-4ef4-9b9b-dcb20185a834,Security,NAT Gateways Summary
+0ad99c49-31e9-499c-9616-c7aa5b8dcaf9[CC_Delimiter]67193df4-563a-43ec-b6ae-bffcc9f0a4ad,Security,List of NAT Gateways
+0ad99c49-31e9-499c-9616-c7aa5b8dcaf9[CC_Delimiter]e96ea1dd-f7c8-46b8-948e-1e07a753e001,Security,Customer Gateways Summary
+0ad99c49-31e9-499c-9616-c7aa5b8dcaf9[CC_Delimiter]5a90036e-eba3-476d-be41-e414d78107f1,Security,List of Customer Gateways
+0ad99c49-31e9-499c-9616-c7aa5b8dcaf9[CC_Delimiter]87cdb2c8-cd1c-4f18-ac22-4e0bd6a685da,Security,VPN Connections Summary
+0ad99c49-31e9-499c-9616-c7aa5b8dcaf9[CC_Delimiter]b1bf65a1-d250-4bf0-b99c-3a54c3d6f41e,Security,List of VPN Connections
+0ad99c49-31e9-499c-9616-c7aa5b8dcaf9[CC_Delimiter]e4cac2cf-aa28-4b8a-b4bb-3705b9dd56c8,Security,Internet Gateways Summary
+0ad99c49-31e9-499c-9616-c7aa5b8dcaf9[CC_Delimiter]a1f90612-9045-469e-95d5-503437c251ab,Security,List of Internet Gateways
+0ad99c49-31e9-499c-9616-c7aa5b8dcaf9[CC_Delimiter]474eb5cd-e4b8-455d-abcc-eae927cf1e30,Security,Security Group Common Searches
+0ad99c49-31e9-499c-9616-c7aa5b8dcaf9[CC_Delimiter]64add0e2-4db3-4f51-848c-5ae8e7698b38,Security,Security Group Visualization
+0ad99c49-31e9-499c-9616-c7aa5b8dcaf9[CC_Delimiter]32bef31d-3f58-48fc-8891-6164b5871031,Security,EC2-VPC Security Group Summary
+0ad99c49-31e9-499c-9616-c7aa5b8dcaf9[CC_Delimiter]9dbc8870-016c-451c-8d2f-5ce4ffbebc79,Security,List of EC2-VPC Security Groups
+0ad99c49-31e9-499c-9616-c7aa5b8dcaf9[CC_Delimiter]d95b7cdf-1ea9-4513-8d61-5f48ae98298d,Security,EC2-Classic Security Group Summary
+0ad99c49-31e9-499c-9616-c7aa5b8dcaf9[CC_Delimiter]53a6122a-1790-48ab-b3c5-e18949fc2f18,Security,List of EC2-Classic Security Groups
+0ad99c49-31e9-499c-9616-c7aa5b8dcaf9[CC_Delimiter]b4e016e0-08d2-4bbf-a2ee-8b31384255ce,Security,DB Security Groups Summary
+0ad99c49-31e9-499c-9616-c7aa5b8dcaf9[CC_Delimiter]c700a33a-0ed3-4347-8705-a0704b2b3dc5,Security,List of DB Security Groups
+0ad99c49-31e9-499c-9616-c7aa5b8dcaf9[CC_Delimiter]6235f6a3-d862-466a-a03d-4567abd6f183,Security,Redshift Security Group Summary
+0ad99c49-31e9-499c-9616-c7aa5b8dcaf9[CC_Delimiter]ea67f344-dace-4042-9d6f-7d751f220545,Security,List of Redshift Security Groups
+0ad99c49-31e9-499c-9616-c7aa5b8dcaf9[CC_Delimiter]41b679be-678d-4459-8aa6-aa9bc284a9bb,Security,ElastiCache Security Group Summary
+0ad99c49-31e9-499c-9616-c7aa5b8dcaf9[CC_Delimiter]16d86c5a-aa2a-457e-af98-be1bae76d444,Security,List of ElastiCache Security Groups
+0ad99c49-31e9-499c-9616-c7aa5b8dcaf9[CC_Delimiter]637cd1c4-eba1-4f0d-9ac8-d94dbb09e179,Security,Perimeter Assessment
+0ad99c49-31e9-499c-9616-c7aa5b8dcaf9[CC_Delimiter]a46119ae-59e6-4a1e-a90c-f676470721ec,Security,List of IAM Admin Users
+0ad99c49-31e9-499c-9616-c7aa5b8dcaf9[CC_Delimiter]bf8e1359-64b7-44d4-971e-b4c1335643cb,Security,Change Monitoring
+0ad99c49-31e9-499c-9616-c7aa5b8dcaf9[CC_Delimiter]06f8005e-276e-4ca6-bfa5-a9056ba27fe2,Security,Security Permissions
+0ad99c49-31e9-499c-9616-c7aa5b8dcaf9[CC_Delimiter]d65d69d4-5b4d-4469-be1a-6fa792eaea03,Security,CloudWatch Logs - Define Events
+0ad99c49-31e9-499c-9616-c7aa5b8dcaf9[CC_Delimiter]f277acbb-2236-4f94-87f6-be4915758201,Security,CloudWatch Logs - View Results
+0ad99c49-31e9-499c-9616-c7aa5b8dcaf9[CC_Delimiter]8617045a-a1ba-4882-a715-43780da6cb42,Security,CloudWatch Logs Setup
+0ad99c49-31e9-499c-9616-c7aa5b8dcaf9[CC_Delimiter]d8416e69-9d35-43bb-b2b4-2eed3e93e7a3,Security,CloudWatch Logs Summary
+0ad99c49-31e9-499c-9616-c7aa5b8dcaf9[CC_Delimiter]777d1e61-40b9-40b0-9231-23b78fe7d06b,Security,VPC Flow Logs - Summary
+0ad99c49-31e9-499c-9616-c7aa5b8dcaf9[CC_Delimiter]777015b4-0db8-4a4d-b829-9a1dc2547c6f,Security,VPC Flow Logs - Connections
+0ad99c49-31e9-499c-9616-c7aa5b8dcaf9[CC_Delimiter]73b1d4f7-1959-4664-ae23-31ecd53b56a2,Security,VPC Flow Logs - Events
+0ad99c49-31e9-499c-9616-c7aa5b8dcaf9[CC_Delimiter]a0228019-9de9-4a94-9d5c-c91ac9d8313f,Security,VPC Flow Logs - Setup
+0ad99c49-31e9-499c-9616-c7aa5b8dcaf9[CC_Delimiter]887bbbb3-44b5-4364-8c75-9f1bd945154a,Security,S3 Encryption Details
+736d397f-22b3-4aef-910c-2bf4e3b7354e[CC_Delimiter]56287889-494e-4b78-90c9-e7be2ab49a65,Compliance,CIS Benchmark
+736d397f-22b3-4aef-910c-2bf4e3b7354e[CC_Delimiter]cd261ab5-3d5e-48cd-919e-d5e6b9f345e4,Compliance,Total Compliance

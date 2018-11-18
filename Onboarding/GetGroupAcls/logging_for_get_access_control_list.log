@@ -1,0 +1,250 @@
+INFO:root:Could not find acls for group: d6205ae9-d062-4be5-8baf-306d4caa2429 and account Payer Master Account
+INFO:root:Could not find acls for group: 1e2eb023-346a-48a0-9b6e-5913d40ad1a0 and account Payer Master Account
+INFO:root:Could not find acls for group: d6205ae9-d062-4be5-8baf-306d4caa2429 and account Payer Master Account
+INFO:root:Could not find acls for group: d6205ae9-d062-4be5-8baf-306d4caa2429 and account Payer Master Account
+INFO:root:Could not find acls for group: d6205ae9-d062-4be5-8baf-306d4caa2429 and account Payer Master Account
+INFO:root:No Permissions for an Azure MAV Account in the Template
+INFO:root:No Permissions for an Azure MAV Account in the Template
+INFO:root:No Permissions for an Azure MAV Account in the Template
+INFO:root:No Permissions for an Azure MAV Account in the Template
+INFO:root:No Permissions for an Azure MAV Account in the Template
+INFO:root:No Permissions for an Azure MAV Account in the Template
+INFO:root:No Permissions for an Azure MAV Account in the Template
+INFO:root:No Permissions for an Azure MAV Account in the Template
+INFO:root:No Permissions for an Azure MAV Account in the Template
+INFO:root:No Permissions for an Azure MAV Account in the Template
+INFO:root:Writing permissions for AWS Account
+INFO:root:Writing permissions for AWS MAV Account
+INFO:root:Writing permissions for an Azure Account
+INFO:root:No Permissions for an Azure MAV Account in the Template
+INFO:root:Writing permissions for AWS Account
+INFO:root:Writing permissions for AWS MAV Account
+INFO:root:Writing permissions for an Azure Account
+INFO:root:No Permissions for an Azure MAV Account in the Template
+INFO:root:Writing permissions for AWS Account
+INFO:root:Writing permissions for AWS MAV Account
+INFO:root:Writing permissions for an Azure Account
+INFO:root:No Permissions for an Azure MAV Account in the Template
+INFO:root:Could not find acls
+INFO:root:Could not find acls
+INFO:root:Could not find acls
+INFO:root:Could not find acls
+INFO:root:Could not find acls
+INFO:root:Could not find acls
+INFO:root:Could not find acls
+INFO:root:Writing permissions for AWS Account
+INFO:root:Writing permissions for AWS MAV Account
+INFO:root:Writing permissions for an Azure Account
+INFO:root:No Permissions for an Azure MAV Account in the Template
+INFO:root:The environmenthttps://app.cloudcheckr.com is not valid. If this is a standalone version of CloudCheckr, you must add to the check_invalid_env function
+INFO:root:The environmenthttps://app.cloudcheckr.com is not valid. If this is a standalone version of CloudCheckr, you must add to the check_invalid_env function
+INFO:root:Skipping this permission because the returned permissions were None
+INFO:root:The environmenthttps://app.cloudcheckr.com is not valid. If this is a standalone version of CloudCheckr, you must add to the check_invalid_env function
+INFO:root:The environmenthttps://app.cloudcheckr.com is not valid. If this is a standalone version of CloudCheckr, you must add to the check_invalid_env function
+INFO:root:Skipping this permission because the returned permissions were None
+INFO:root:The environmenthttps://app.cloudcheckr.com is not valid. If this is a standalone version of CloudCheckr, you must add to the check_invalid_env function
+INFO:root:Skipping this permission because the returned permissions were None
+INFO:root:The environmenthttps://app.cloudcheckr.com is not valid. If this is a standalone version of CloudCheckr, you must add to the check_invalid_env function
+INFO:root:Skipping this permission because the returned permissions were None
+INFO:root:No Permissions for an Azure MAV Account in the Template
+INFO:root:No duplicate groups found, please proceed.
+INFO:root:The environment h is invalid. No API call done
+INFO:root:Groups were not properly parsed, please contact Support
+INFO:root:No duplicate groups found, please proceed.
+INFO:root:The environment h is invalid. No API call done
+INFO:root:Groups were not properly parsed, please contact Support
+INFO:root:No duplicate groups found, please proceed.
+INFO:root:Could not find any Groups
+INFO:root:{'ErrorCode': 'Unauthorized', 'ErrorMessage': 'No valid API Access Key provided'}
+INFO:root:Groups were not properly parsed, please contact Support
+INFO:root:No duplicate groups found, please proceed.
+INFO:root:No duplicate groups found, please proceed.
+INFO:root:Could not find a group with the group name Permission Template33
+INFO:root:Skipping this permission because the returned permissions were None
+INFO:root:No duplicate groups found, please proceed.
+INFO:root:Could not find a group with the group name Permission Template33
+INFO:root:Skipping this permission because the returned permissions were None
+INFO:root:Could not find a group with the group name Permission Template33
+INFO:root:Skipping this permission because the returned permissions were None
+INFO:root:Could not find a group with the group name Permission Template33
+INFO:root:Skipping this permission because the returned permissions were None
+INFO:root:No Permissions for an Azure MAV Account in the Template
+INFO:root:No duplicate groups found, please proceed.
+INFO:root:Writing permissions for AWS Account
+INFO:root:No duplicate groups found, please proceed.
+INFO:root:Could not get any acls from API
+INFO:root:Could not find any Acls from API
+INFO:root:No duplicate groups found, please proceed.
+INFO:root:Could not get any acls from API
+INFO:root:Could not find any Acls from API
+INFO:root:No duplicate groups found, please proceed.
+INFO:root:No duplicate groups found, please proceed.
+INFO:root:No duplicate groups found, please proceed.
+INFO:root:Could not find any Acls from API
+INFO:root:No duplicate groups found, please proceed.
+INFO:root:Could not find any Acls from API
+INFO:root:No duplicate groups found, please proceed.
+INFO:root:No duplicate groups found, please proceed.
+INFO:root:No duplicate groups found, please proceed.
+INFO:root:No duplicate groups found, please proceed.
+INFO:root:No duplicate groups found, please proceed.
+INFO:root:No duplicate groups found, please proceed.
+INFO:root:No duplicate groups found, please proceed.
+INFO:root:No duplicate groups found, please proceed.
+INFO:root:No duplicate groups found, please proceed.
+INFO:root:No duplicate groups found, please proceed.
+INFO:root:No duplicate groups found, please proceed.
+INFO:root:No duplicate groups found, please proceed.
+INFO:root:No duplicate groups found, please proceed.
+INFO:root:No duplicate groups found, please proceed.
+INFO:root:No duplicate groups found, please proceed.
+INFO:root:No duplicate groups found, please proceed.
+INFO:root:No duplicate groups found, please proceed.
+INFO:root:No duplicate groups found, please proceed.
+INFO:root:Writing permissions for AWS Account
+INFO:root:Writing permissions for AWS MAV Account
+INFO:root:No duplicate groups found, please proceed.
+INFO:root:Writing permissions for AWS Account
+INFO:root:Writing permissions for AWS MAV Account
+INFO:root:Writing permissions for an Azure Account
+INFO:root:No Permissions for an Azure MAV Account in the Template
+INFO:root:No duplicate groups found, please proceed.
+INFO:root:No duplicate groups found, please proceed.
+INFO:root:Writing permissions for AWS Account
+INFO:root:Writing permissions for AWS MAV Account
+INFO:root:No duplicate groups found, please proceed.
+INFO:root:Writing permissions for AWS Account
+INFO:root:Writing permissions for AWS MAV Account
+INFO:root:Writing permissions for an Azure Account
+INFO:root:No Permissions for an Azure MAV Account in the Template
+INFO:root:No duplicate groups found, please proceed.
+INFO:root:Writing permissions for AWS Account
+INFO:root:No duplicate groups found, please proceed.
+INFO:root:Writing permissions for AWS Account
+INFO:root:No duplicate groups found, please proceed.
+INFO:root:Writing permissions for AWS Account
+INFO:root:Writing permissions for AWS MAV Account
+INFO:root:Writing permissions for an Azure Account
+INFO:root:No Permissions for an Azure MAV Account in the Template
+INFO:root:No duplicate groups found, please proceed.
+INFO:root:Writing permissions for AWS Account
+INFO:root:Writing permissions for AWS MAV Account
+INFO:root:Writing permissions for an Azure Account
+INFO:root:No Permissions for an Azure MAV Account in the Template
+INFO:root:No duplicate groups found, please proceed.
+INFO:root:Writing permissions for AWS Account
+INFO:root:Writing permissions for AWS MAV Account
+INFO:root:Writing permissions for an Azure Account
+INFO:root:No Permissions for an Azure MAV Account in the Template
+INFO:root:No duplicate groups found, please proceed.
+INFO:root:No duplicate groups found, please proceed.
+INFO:root:Writing permissions for AWS Account
+INFO:root:Writing permissions for AWS MAV Account
+INFO:root:No duplicate groups found, please proceed.
+INFO:root:Writing permissions for AWS Account
+INFO:root:Writing permissions for AWS MAV Account
+INFO:root:Writing permissions for an Azure Account
+INFO:root:No Permissions for an Azure MAV Account in the Template
+INFO:root:No duplicate groups found, please proceed.
+INFO:root:Writing permissions for AWS Account
+INFO:root:Writing permissions for AWS MAV Account
+INFO:root:Writing permissions for an Azure Account
+INFO:root:No Permissions for an Azure MAV Account in the Template
+INFO:root:No duplicate groups found, please proceed.
+INFO:root:Writing permissions for AWS Account
+INFO:root:Writing permissions for AWS MAV Account
+INFO:root:Writing permissions for an Azure Account
+INFO:root:No Permissions for an Azure MAV Account in the Template
+INFO:root:No duplicate groups found, please proceed.
+INFO:root:Could not find a group with the group name Permission Template2
+INFO:root:Skipping this permission because the returned permissions were None
+INFO:root:Could not find a group with the group name Permission Template2
+INFO:root:Skipping this permission because the returned permissions were None
+INFO:root:Could not find a group with the group name Permission Template2
+INFO:root:Skipping this permission because the returned permissions were None
+INFO:root:No Permissions for an Azure MAV Account in the Template
+INFO:root:The environment https://api2.cloudcheckr.com is not valid. If this is a standalone environment, please add the url to the check_invalid_env function.
+INFO:root:The environment https://api2.cloudcheckr.com is not valid. If this is a standalone environment, please add the url to the check_invalid_env function.
+INFO:root:No duplicate groups found, please proceed.
+INFO:root:Writing permissions for AWS Account
+INFO:root:Writing permissions for AWS MAV Account
+INFO:root:Writing permissions for an Azure Account
+INFO:root:No Permissions for an Azure MAV Account in the Template
+INFO:root:No duplicate groups found, please proceed.
+INFO:root:Could not locate group id for group: t
+INFO:root:No duplicate groups found, please proceed.
+INFO:root:Could not locate group id for group: t
+INFO:root:No duplicate groups found, please proceed.
+INFO:root:Could not locate group id for group: t
+INFO:root:No duplicate groups found, please proceed.
+INFO:root:Could not locate group id for group: t
+INFO:root:No duplicate groups found, please proceed.
+INFO:root:Could not locate group id for group: t
+INFO:root:No duplicate groups found, please proceed.
+INFO:root:Could not locate group id for group: t
+INFO:root:No duplicate groups found, please proceed.
+INFO:root:The environment https://api2.cloudcheckr.com is not valid. If this is a standalone environment, please add the url to the check_invalid_env function.
+INFO:root:No duplicate groups found, please proceed.
+INFO:root:No duplicate groups found, please proceed.
+INFO:root:No duplicate groups found, please proceed.
+INFO:root:No duplicate groups found, please proceed.
+INFO:root:The account Azure3 was used as the permission template for Azure Accounts.
+INFO:root:The account Payer Master Account was used as the permission template for AWS Accounts.
+INFO:root:The account All Dem Accounts was used as the permission template for AWS MAV Accounts.
+INFO:root:The account AzureMav was used as the permission template for Azure MAV Accounts.
+INFO:root:No duplicate groups found, please proceed.
+INFO:root:The account Azure3 was used as the permission template for Azure Accounts.
+INFO:root:The account Payer Master Account was used as the permission template for AWS Accounts.
+INFO:root:The account All Dem Accounts was used as the permission template for AWS MAV Accounts.
+INFO:root:The account AzureMav was used as the permission template for Azure MAV Accounts.
+INFO:root:No Permissions for an AWS Account in the Template
+INFO:root:No Permissions for an AWS MAV Account in the Template
+INFO:root:No Permissions for an Azure Account in the Template
+INFO:root:No Permissions for an Azure MAV Account in the Template
+INFO:root:No duplicate groups found, please proceed.
+INFO:root:The account Azure3 was used as the permission template for Azure Accounts.
+INFO:root:The account Payer Master Account was used as the permission template for AWS Accounts.
+INFO:root:The account All Dem Accounts was used as the permission template for AWS MAV Accounts.
+INFO:root:The account AzureMav was used as the permission template for Azure MAV Accounts.
+INFO:root:No Permissions for an AWS Account in the Template
+INFO:root:No Permissions for an AWS MAV Account in the Template
+INFO:root:No Permissions for an Azure Account in the Template
+INFO:root:No Permissions for an Azure MAV Account in the Template
+INFO:root:No duplicate groups found, please proceed.
+INFO:root:The account Azure3 was used as the permission template for Azure Accounts.
+INFO:root:The account Payer Master Account was used as the permission template for AWS Accounts.
+INFO:root:The account All Dem Accounts was used as the permission template for AWS MAV Accounts.
+INFO:root:The account AzureMav was used as the permission template for Azure MAV Accounts.
+INFO:root:No Permissions for an AWS Account in the Template
+INFO:root:No Permissions for an AWS MAV Account in the Template
+INFO:root:No Permissions for an Azure Account in the Template
+INFO:root:No Permissions for an Azure MAV Account in the Template
+INFO:root:No duplicate groups found, please proceed.
+INFO:root:The account Azure3 was used as the permission template for Azure Accounts.
+INFO:root:The account Payer Master Account was used as the permission template for AWS Accounts.
+INFO:root:The account All Dem Accounts was used as the permission template for AWS MAV Accounts.
+INFO:root:The account AzureMav was used as the permission template for Azure MAV Accounts.
+INFO:root:No Permissions for an AWS Account in the Template
+INFO:root:No Permissions for an AWS MAV Account in the Template
+INFO:root:No Permissions for an Azure Account in the Template
+INFO:root:No Permissions for an Azure MAV Account in the Template
+INFO:root:No duplicate groups found, please proceed.
+INFO:root:The account Azure3 was used as the permission template for Azure Accounts.
+INFO:root:The account Payer Master Account was used as the permission template for AWS Accounts.
+INFO:root:The account All Dem Accounts was used as the permission template for AWS MAV Accounts.
+INFO:root:No duplicate groups found, please proceed.
+INFO:root:The account Azure3 was used as the permission template for Azure Accounts.
+INFO:root:The account Payer Master Account was used as the permission template for AWS Accounts.
+INFO:root:The account All Dem Accounts was used as the permission template for AWS MAV Accounts.
+INFO:root:Writing permissions for AWS Account
+INFO:root:Writing permissions for AWS MAV Account
+INFO:root:Writing permissions for an Azure Account
+INFO:root:No Permissions for an Azure MAV Account in the Template
+INFO:root:No duplicate groups found, please proceed.
+INFO:root:The account Azure3 was used as the permission template for Azure Accounts.
+INFO:root:The account Payer Master Account was used as the permission template for AWS Accounts.
+INFO:root:The account All Dem Accounts was used as the permission template for AWS MAV Accounts.
+INFO:root:Writing permissions for AWS Account
+INFO:root:Writing permissions for AWS MAV Account
+INFO:root:Writing permissions for an Azure Account
+INFO:root:No Permissions for an Azure MAV Account in the Template
