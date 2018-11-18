@@ -1,4 +1,4 @@
-**Add Budget Alerts with the CloudCheckr API**
+# Add Budget Alerts with the CloudCheckr API
 
 ---
 
