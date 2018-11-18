@@ -1,0 +1,10 @@
+Deleted the custom charge 7
+{'Code': 200, 'Message': 'OK'}
+Deleted the custom charge 8
+{'Code': 200, 'Message': 'OK'}
+Deleted the custom charge 9
+{'Code': 200, 'Message': 'OK'}
+Deleted the custom charge 10
+{'Code': 200, 'Message': 'OK'}
+Deleted the custom charge 11
+{'Code': 200, 'Message': 'OK'}

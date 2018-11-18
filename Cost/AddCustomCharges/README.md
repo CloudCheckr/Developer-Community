@@ -9,7 +9,8 @@
 2. Install numpy, and requests python libraries with pip. https://github.com/boto/boto3, http://docs.python-requests.org/en/master/user/install/, https://docs.scipy.org/doc/numpy-1.15.1/user/install.html
 3. Log in to CloudCheckr and create an Admin API access key.
 4. Enter the CloudCheckr Account name of the payer account to line 90 in the variable payer_account_name.
-4. Run python upload_custom_charges.py <cloudcheckr-admin-api-key>
+5. Make sure the custom_charges.csv file is formmated correctly and in the same directory as the script.
+6. Run python upload_custom_charges.py <cloudcheckr-admin-api-key>
 
 ---
 

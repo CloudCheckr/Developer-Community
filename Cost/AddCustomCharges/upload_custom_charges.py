@@ -5,6 +5,7 @@ import logging
 import sys
 logging.basicConfig(filename='upload_charges_logging_september.log',level=logging.INFO)
 
+# python upload_custom_charges.py 0000000000000000000000000000000000000000000000000000000000000000
 
 def load_custom_charges(custom_charges_file):
 
