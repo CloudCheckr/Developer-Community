@@ -33,6 +33,11 @@ For data processing and analysis the json, [numpy](http://www.numpy.org/), and [
 python get_ec2_instances.py 0000000000000000000000000000000000000000000000000000000000000000
 ```
 
+## Contributing
+
+This is an open source project and welcomes contributions. See our [Contributing Guide](CONTRIBUTING.md) for more details.
+
+
 ## Example use case
 
 1. A number of Cloud Resellers and MSPs have their own internal tools to help create a Quarterly Business Review document or dashboard. Using the CloudCheckr API you can pull out a end customers cloud spend data across 1-N accounts as well as their forecast and any custom reporting you have made for them via Advanced Grouping.
