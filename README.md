@@ -3,7 +3,7 @@
 
 Hi! Welcome to the CloudCheckr Development community! This is a repository of scripts, tools or otherwise that can help you quickly integrate CloudCheckr using the native **API**.
 
-If you're new to CloudCheckr and just getting started. Please check out our **Getting Started Guide** on our Success portal: [Lets go!](https://support.cloudcheckr.com/getting-started-with-cloudcheckr/)
+If you're new to CloudCheckr and just getting started. Please check out our **Getting Started Guide** on our Success portal: [Lets go!](https://success.cloudcheckr.com/)
 
 ## What is this?
 
