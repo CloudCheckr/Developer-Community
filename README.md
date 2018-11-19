@@ -1,3 +1,4 @@
+![CloudCheckr Success Center](https://raw.githubusercontent.com/CloudCheckr/alecrajeev/master/logo/success_center_logo.png)
 # Welcome to the CloudCheckr Development Community!
 
 Hi! Welcome to the CloudCheckr Development community! This is a repository of scripts, tools or otherwise that can help you quickly integrate CloudCheckr using the native **API**.
@@ -23,6 +24,14 @@ This is a public GitHub repository, please feel free to fork it or pull down the
 Content is separated by category as it relates to CloudCheckr as a product and implies how scripts could be used per product module.
 
 In order to get started with the API and to access your API key, please review the following instructions: https://support.cloudcheckr.com/api-cli-and-setup/
+
+The currently published scripts are written in python 3 and use the [requests](http://docs.python-requests.org/en/master/) module for making API calls. In order to run the scripts, you will have to enter in the API key to the command line. The 64 character string is a API key that is used to connect to the CloudCheckr API. Some scripts will have other command line arguments that are written to the command line as well or variables that can be configured in the script such as account name.
+
+For data processing and analysis the json, [numpy](http://www.numpy.org/), and [pandas](https://pandas.pydata.org/) libraries are used for certain scripts.
+
+```
+python get_ec2_instances.py 0000000000000000000000000000000000000000000000000000000000000000
+```
 
 ## Example use case
 
