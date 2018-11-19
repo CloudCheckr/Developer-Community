@@ -1,0 +1,1 @@
+{'Changes': [{'ChangeType': 'Added', 'EntityType': 'Ec2Instance', 'Identifier': 'i-00000000000000000', 'ServiceType': 'Ec2', 'ChangeFound': '2018-11-12T19:14:14', 'Region': 'us-east-1', 'OldState': '[]', 'NewState': '[{"Key":"ImageId","Value":"ami-00000000000000000"}]'}]}
