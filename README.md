@@ -30,7 +30,7 @@ The currently published scripts are written in python 3 and use the [requests](h
 For data processing and analysis the json, [numpy](http://www.numpy.org/), and [pandas](https://pandas.pydata.org/) libraries are used for certain scripts.
 
 ```
-python get_ec2_instances.py 0000000000000000000000000000000000000000000000000000000000000000
+python get_ec2_instances.py <cloudcheckr-admin-api-key>
 ```
 
 ## Contributing
