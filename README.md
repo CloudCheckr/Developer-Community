@@ -1,4 +1,4 @@
-![CloudCheckr Success Center](https://raw.githubusercontent.com/alecrajeev/Developer-Community/master/logo/success_center_logo.png)
+![CloudCheckr Success Center](https://raw.githubusercontent.com/alecrajeev/Developer-Community/master/logo/success_center_logo_inverse.png)
 # Welcome to the CloudCheckr Development Community!
 
 Hi! Welcome to the CloudCheckr Development community! This is a repository of scripts, tools or otherwise that can help you quickly integrate CloudCheckr using the native **API**.
