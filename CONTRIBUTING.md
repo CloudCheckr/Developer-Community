@@ -13,6 +13,9 @@ A good pull request:
 -  Example output is included to verify how the script runs successfully.
 -  If it adds/changes a public API, it must also include documentation
    for those changes.
+   
+- If it is a feature, name the branch feature/branch-name.
+- If it is a bug, name the branch bug/branch-name.
 
 Reporting An Issue/Feature
 --------------------------
