@@ -35,7 +35,10 @@ python get_ec2_instances.py 0000000000000000000000000000000000000000000000000000
 
 ## Contributing
 
-This is an open source project and welcomes contributions. See our [Contributing Guide](CONTRIBUTING.md) for more details.
+This is an open source project and welcomes contributions. Currently all of these scripts are written in python 3 and use the requests library to interact with the CloudCheckr API. However, since the CloudCheckr API is a REST API it can be used with any programming language that can interact with a REST API, so additional programming languages can be used.
+
+
+See our [Contributing Guide](CONTRIBUTING.md) for more details.
 
 
 ## Example use case
