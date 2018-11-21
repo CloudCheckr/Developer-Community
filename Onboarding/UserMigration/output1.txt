@@ -1,0 +1,100 @@
+Script started on Mon Mar  5 21:21:46 2018
+[?1034hbash-3.2$ python3 migrate_users.py qa 00000000 api 00000000
+Migrate Users and Groups from qa to api
+
+Migration is between different regions
+Grabbed Original Group List
+Created Group: Nate Group in api with id: 019b93ac-b2d7-49f1-94bf-470b3c38e35d
+Created Group: Blank Group in api with id: ecf9f2b9-8de1-4f04-ad49-e72ef400052c
+Created Group: Mark Group in api with id: b88ca592-0297-46f0-99e6-bf3891eb7a37
+Created Group: Alec Group in api with id: 2a40a433-c9fa-46c3-9946-5578e9ffcf94
+Finished Creating groups
+
+Start adding group permissions
+Added Group Permissions from 7fcc577c-4f7f-4b2b-8f8b-07a6aa8beaac to 019b93ac-b2d7-49f1-94bf-470b3c38e35d for the account MasterPayer
+Added Group Permissions from 7fcc577c-4f7f-4b2b-8f8b-07a6aa8beaac to 019b93ac-b2d7-49f1-94bf-470b3c38e35d for the account 183698509299 (Aaron Gettings)
+Added Group Permissions from 7fcc577c-4f7f-4b2b-8f8b-07a6aa8beaac to 019b93ac-b2d7-49f1-94bf-470b3c38e35d for the account 260172486890 (Aaron Klein)
+No accounts permissionsed in this group 9489bed8-c4b2-4049-b9b0-12433b81d8fa
+Added Group Permissions from a866d674-a66a-4e8a-a28c-309b23383565 to b88ca592-0297-46f0-99e6-bf3891eb7a37 for the account 557949322966 (CloudCheckr Support)
+Added Group Permissions from a866d674-a66a-4e8a-a28c-309b23383565 to b88ca592-0297-46f0-99e6-bf3891eb7a37 for the account 318100514071 (ElishaCCTest)
+Added Group Permissions from a866d674-a66a-4e8a-a28c-309b23383565 to b88ca592-0297-46f0-99e6-bf3891eb7a37 for the account 443094636793 (Aaron Klein ())
+Added Group Permissions from a866d674-a66a-4e8a-a28c-309b23383565 to b88ca592-0297-46f0-99e6-bf3891eb7a37 for the account All Accounts
+Added Group Permissions from 2e83a4df-41e2-49e5-bda5-da2d77e6d6a3 to 2a40a433-c9fa-46c3-9946-5578e9ffcf94 for the account MasterPayer
+Added Group Permissions from 2e83a4df-41e2-49e5-bda5-da2d77e6d6a3 to 2a40a433-c9fa-46c3-9946-5578e9ffcf94 for the account 260172486890 (Aaron Klein)
+Finished adding All Groups Permissions
+
+No users in the group Blank Group
+Created the user kevin4@cloudcheckr.com
+Created the user nate4@cloudcheckr.com in the group Nate Group
+Created the user mark4@cloudcheckr.com in the group Mark Group
+Created the user nate3@cloudcheckr.com in the group Nate Group
+Created the user kevin3@cloudcheckr.com
+Created the user alec3@cloudcheckr.com in the group Alec Group
+Created the user mark1@cloudcheckr.com in the group Mark Group
+Created the user kevin2@cloudcheckr.com
+Created the user alec4@cloudcheckr.com in the group Alec Group
+Created the user nate2@cloudcheckr.com in the group Nate Group
+Created the user kevin5@cloudcheckr.com
+Created the user alec7@cloudcheckr.com in the group Alec Group
+Created the user alec1@cloudcheckr.com in the group Alec Group
+Created the user alecadminonboarding@cloudcheckr.com
+Created the user mark3@cloudcheckr.com in the group Mark Group
+Created the user mark2@cloudcheckr.com in the group Mark Group
+Created the user nate1@cloudcheckr.com in the group Nate Group
+Created the user nate5@cloudcheckr.com in the group Nate Group
+Created the user alecadmin@cloudcheckr.com
+Created the user kevin1@cloudcheckr.com
+Created the user alec5@cloudcheckr.com in the group Alec Group
+Created the user nate22@cloudcheckr.com in the group Nate Group
+Created the user alec6@cloudcheckr.com in the group Alec Group
+Created the user alec2@cloudcheckr.com in the group Alec Group
+Created the user mark5@cloudcheckr.com in the group Mark Group
+Finished Creating Users
+
+Start adding user account level permissions
+Gave user kevin4@cloudcheckr.com permissions to account MasterPayer
+Gave user kevin4@cloudcheckr.com permissions to account 183698509299 (Aaron Gettings)
+Gave user kevin4@cloudcheckr.com permissions to account 318100514071 (ElishaCCTest)
+Gave user kevin4@cloudcheckr.com permissions to account 260172486890 (Aaron Klein)
+Gave user kevin4@cloudcheckr.com permissions to account 443094636793 (Aaron Klein ())
+Gave user kevin3@cloudcheckr.com permissions to account MasterPayer
+Gave user kevin3@cloudcheckr.com permissions to account 183698509299 (Aaron Gettings)
+Gave user kevin3@cloudcheckr.com permissions to account 318100514071 (ElishaCCTest)
+Gave user kevin3@cloudcheckr.com permissions to account 260172486890 (Aaron Klein)
+Gave user kevin3@cloudcheckr.com permissions to account 443094636793 (Aaron Klein ())
+Gave user alec3@cloudcheckr.com permissions to account MasterPayer
+Gave user alec3@cloudcheckr.com permissions to account 557949322966 (CloudCheckr Support)
+Gave user alec3@cloudcheckr.com permissions to account 183698509299 (Aaron Gettings)
+Gave user alec3@cloudcheckr.com permissions to account 318100514071 (ElishaCCTest)
+Gave user alec3@cloudcheckr.com permissions to account 260172486890 (Aaron Klein)
+Gave user alec3@cloudcheckr.com permissions to account 443094636793 (Aaron Klein ())
+Gave user alec3@cloudcheckr.com permissions to account 245990094719 (Aaron Klein)
+Gave user alec3@cloudcheckr.com permissions to account All Accounts
+Gave user alec3@cloudcheckr.com permissions to account MAV2
+Gave user kevin5@cloudcheckr.com permissions to account MasterPayer
+Gave user kevin5@cloudcheckr.com permissions to account 183698509299 (Aaron Gettings)
+Gave user kevin5@cloudcheckr.com permissions to account 318100514071 (ElishaCCTest)
+Gave user kevin5@cloudcheckr.com permissions to account 260172486890 (Aaron Klein)
+Gave user kevin5@cloudcheckr.com permissions to account 443094636793 (Aaron Klein ())
+Gave user alec1@cloudcheckr.com permissions to account 557949322966 (CloudCheckr Support)
+Gave user alec1@cloudcheckr.com permissions to account 318100514071 (ElishaCCTest)
+Gave user kevin1@cloudcheckr.com permissions to account MasterPayer
+Gave user kevin1@cloudcheckr.com permissions to account 183698509299 (Aaron Gettings)
+Gave user kevin1@cloudcheckr.com permissions to account 318100514071 (ElishaCCTest)
+Gave user kevin1@cloudcheckr.com permissions to account 260172486890 (Aaron Klein)
+Gave user kevin1@cloudcheckr.com permissions to account 443094636793 (Aaron Klein ())
+Gave user alec2@cloudcheckr.com permissions to account MasterPayer
+Gave user alec2@cloudcheckr.com permissions to account 557949322966 (CloudCheckr Support)
+Gave user alec2@cloudcheckr.com permissions to account 183698509299 (Aaron Gettings)
+Gave user alec2@cloudcheckr.com permissions to account 318100514071 (ElishaCCTest)
+Gave user alec2@cloudcheckr.com permissions to account 260172486890 (Aaron Klein)
+Gave user alec2@cloudcheckr.com permissions to account 443094636793 (Aaron Klein ())
+Gave user alec2@cloudcheckr.com permissions to account 245990094719 (Aaron Klein)
+Gave user alec2@cloudcheckr.com permissions to account All Accounts
+
+Finished adding user account level permissions
+Finished running user-migration script
+bash-3.2$ exit
+exit
+
+Script done on Mon Mar  5 21:23:17 2018
