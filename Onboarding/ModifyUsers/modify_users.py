@@ -14,19 +14,18 @@ def log_information(log_string):
     print(log_string)
 
 
-def get_users_v2(admin_api_key):
+def get_users_v2(admin_api_key, env):
     """
     Uses admin_api_key to get user data
     """
     
-    half_url = "https://api.cloudcheckr.com/api/account.json/get_users_v2"
+    half_url = f"{env}/api/account.json/get_users_v2"
     api_parameters = {}
     resp = requests.get(half_url, params=api_parameters, headers = {"access_key": admin_api_key})
-    data = resp.json()
     
     users = []
-    if "user_permissions" in data:
-        user_data = data["user_permissions"]
+    if "user_permissions" in resp.json():
+        user_data = resp.json()["user_permissions"]
         for user in user_data:
             if user["role"] == "PartnerSysAdmin":
                 users.append(user["email"])
@@ -36,49 +35,45 @@ def get_users_v2(admin_api_key):
     return users
 
 
-def edit_user(admin_api_key, user):
+def edit_user(admin_api_key, env, user):
     """
-    Uses admin_api_key and get_users_v2 result to modify users
+    Uses admin_api_key to modify user
     """
     
-    half_url = "https://api.cloudcheckr.com/api/account.json/edit_user"
+    half_url = f"{env}/api/account.json/edit_user"
     api_parameters = {"email": user, "role": "Administrator"}
     resp = requests.post(half_url, data=json.dumps(api_parameters), headers = {"Content-type": "application/json", "access_key": admin_api_key})
-    output_data = resp.json()
 
-    if "Code" in output_data:
+    if "Code" in resp.json():
         log_information(f"Modified user with email: {user}")
     else:
         log_information(f"Failed to modify user with email: {user}")
 
 
-def check_valid_env(env):
+def check_invalid_env(env):
     """
-    Checks for a valid enviroment. Currently, it will only check for api, eu, au, gov, or qa.
+    Checks for an invalid enviroment. Currently, it will only check for api, eu, au, gov, or qa.
     If you are using a standalone environment, then you MUST add it to this function
     """
 
     Enviroments = ["https://api.cloudcheckr.com", "https://eu.cloudcheckr.com", "https://au.cloudcheckr.com", "https://gov.cloudcheckr.com", "https://qa.cloudcheckr.com"]
 
-    if not(env in Enviroments):
+    if env not in Enviroments:
         log_information(f"The environment {env} is not valid. If this is a standalone environment, please add the url to the check_invalid_env function.")
-        return True
-    return False
-
 
 def main():
     try:
         admin_api_key = str(sys.argv[1])
     except IndexError:
-        log_information("Must include admin API key of environemt that you want to modify")
+        log_information("Must include admin API key")
         return
 
     env = "https://api.cloudcheckr.com"
-    check_valid_env(env)
+    check_invalid_env(env)
 
-    users = get_users_v2(admin_api_key)
+    users = get_users_v2(admin_api_key, env)
     for user in users:
-        edit_user(admin_api_key, user)
+        edit_user(admin_api_key, env, user)
 
 
 if __name__ == '__main__':

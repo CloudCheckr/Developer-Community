@@ -17,9 +17,9 @@ Uses the [get_users_v2](https://success.cloudcheckr.com/article/kr5glkrmon-admin
 
 Uses the [edit_user](https://success.cloudcheckr.com/article/kr5glkrmon-admin-api-reference-guide#edit_user) API call to modify users.
 
-The criteria is set at line 31. 
+The criteria is set at line 30. 
 
-The desired result is set at line 45.
+The desired result is set at line 44.
 
 The program is set to modify users with user role, PartnerSysAdmin, to user role, Administrator.
 
@@ -29,4 +29,4 @@ You can view CloudCheckr Users through the UI at Settings >> Users.
 
 ## Assumptions
 
-1. The environment https://api.cloudcheckr.com is being used. This can be adjusted on line 76 if required.
+1. The environment https://api.cloudcheckr.com is being used. This can be adjusted on line 71 if required.
