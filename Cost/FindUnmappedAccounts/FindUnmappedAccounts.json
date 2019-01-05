@@ -15,6 +15,10 @@
       "Type": "String",
       "Description": "Email address for receiving notifications"
     },
+    "KMSKey": {
+      "Type" "String",
+      "Description": "Arn of the KMS key used to encrypt the cc_admin_access_key secure string"
+    },
     "S3Bucket": {
       "Type": "String",
       "Description": "Name of the bucket where the zip file is"
@@ -130,9 +134,7 @@
                   "Action": [
                     "kms:Decrypt"
                   ],
-                  "Resource": [
-                    "Ref": "KMSKey"
-                  ]
+                  "Resource": { "Ref": "KMSKey" }
                 },
                 {
                   "Sid": "ParameterStore",
