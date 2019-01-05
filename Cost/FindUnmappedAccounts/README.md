@@ -1,6 +1,6 @@
 # Find Unmapped Accounts
 
-Searches CloudCheckr account for any accounts which are not mapped to an account family. If it finds any, it notifies an SNS topic. T
+Searches CloudCheckr account for any accounts which are not mapped to an account family. If it finds any, it notifies an SNS topic. The script runs during business hours by default, but this behavior can be modified by cron expression.
 
 ## Prerequisites
 
