@@ -57,7 +57,7 @@
       "Type": "AWS::Events::Rule",
       "Properties": {
         "Description": "Triggers the find-unmapped-accounts function",
-        "Name": "Find-Unmapped-Accounts-Cron-Job"
+        "Name": "Find-Unmapped-Accounts-Cron-Job",
         "ScheduleExpression": {
           "Ref": "CronExpression"
         },
