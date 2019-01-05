@@ -73,7 +73,7 @@ function processEvent(event, context, callback) {
                             BccAddresses: [], 
                             CcAddresses: [], 
                             ToAddresses: [
-                                "something"
+                                process.env.destAddr
                             ]
                         }, 
                         Message: {
@@ -96,7 +96,7 @@ function processEvent(event, context, callback) {
                                 Data: "Unmapped CloudCheckr Accounts Found"
                             }
                         },
-                        Source: "awsresell@jhctechnology.com"
+                        Source: process.env.sourceAddr
                     };
                     ses.sendEmail(params, function(err, data) {
                         if (err) console.log(err, err.stack); // an error occurred
