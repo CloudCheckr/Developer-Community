@@ -16,7 +16,7 @@
       "Description": "Email address for receiving notifications"
     },
     "KMSKey": {
-      "Type" "String",
+      "Type": "String",
       "Description": "Arn of the KMS key used to encrypt the cc_admin_access_key secure string"
     },
     "S3Bucket": {
