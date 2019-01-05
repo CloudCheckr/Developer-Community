@@ -10,7 +10,7 @@ The script runs during business hours by default, but this behavior can be modif
 2. A CloudCheckr [admin API key](https://success.cloudcheckr.com/article/gbnfxmoyo6-)
   * Encrypt this key as a secure string named `cc_admin_access_key` in Systems Manager parameter store and note the KMS key used for the encryption
 3. A Systems Manager parameter (normal string) named `html_encoded_semicolon_separated_master_payers` with the value(s) of the project names for AWS payer accounts in CloudCheckr, [html encoded](https://codebeautify.org/html-encode-string) and delimited by `;`
-4. A verified email address in SES for the `From` field, and either a verified email or [production mode](https://docs.aws.amazon.com/ses/latest/DeveloperGuide/request-production-access.html) active in the account
+4. A verified email address in SES for source email address, and either a verified email or [production mode](https://docs.aws.amazon.com/ses/latest/DeveloperGuide/request-production-access.html) active in the account for sending to the destination address
 
 ## Launch Instructions
 
