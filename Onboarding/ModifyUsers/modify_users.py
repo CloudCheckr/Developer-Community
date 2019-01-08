@@ -16,7 +16,7 @@ def log_information(log_string):
 
 def get_users_v2(admin_api_key, env):
     """
-    Uses admin_api_key to get user data
+    Uses admin API key to get user data
     """
     
     half_url = f"{env}/api/account.json/get_users_v2"
@@ -24,6 +24,7 @@ def get_users_v2(admin_api_key, env):
     resp = requests.get(half_url, params=api_parameters, headers = {"access_key": admin_api_key})
     
     users = []
+
     if "user_permissions" in resp.json():
         user_data = resp.json()["user_permissions"]
         for user in user_data:
@@ -37,7 +38,7 @@ def get_users_v2(admin_api_key, env):
 
 def edit_user(admin_api_key, env, user):
     """
-    Uses admin_api_key to modify user
+    Uses admin API key to modify user
     """
     
     half_url = f"{env}/api/account.json/edit_user"
