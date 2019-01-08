@@ -62,6 +62,7 @@ def check_invalid_env(env):
     if env not in Enviroments:
         log_information(f"The environment {env} is not valid. If this is a standalone environment, please add the url to the check_invalid_env function.")
 
+
 def main():
     try:
         admin_api_key = str(sys.argv[1])
