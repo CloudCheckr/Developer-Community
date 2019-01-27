@@ -64,7 +64,7 @@ def modify_account_family(admin_api_key, env, project_id, default_account_family
 def validate_env(env):
     """
     Validates enviroment. By default, it checks for api, eu, au, gov and qa.
-    If you are using a standalone environment, then you must add it to the environments lsit
+    If you are using a standalone environment, then you must add it to the environments list
     """
 
     enviroments = ["https://api.cloudcheckr.com", "https://eu.cloudcheckr.com", "https://au.cloudcheckr.com", "https://gov.cloudcheckr.com", "https://qa.cloudcheckr.com"]
