@@ -51,16 +51,16 @@ def edit_user(admin_api_key, env, user):
         log_information(f"Failed to modify user with email: {user}")
 
 
-def check_invalid_env(env):
+def validate_env(env):
     """
-    Checks for an invalid enviroment. Currently, it will only check for api, eu, au, gov, or qa.
-    If you are using a standalone environment, then you MUST add it to this function
+    Validates environment. By default, it checks for api, eu, au, gov and qa.
+    If you are using a standalone environment, then you must add it to the environments list
     """
 
-    Enviroments = ["https://api.cloudcheckr.com", "https://eu.cloudcheckr.com", "https://au.cloudcheckr.com", "https://gov.cloudcheckr.com", "https://qa.cloudcheckr.com"]
+    enviroments = ["https://api.cloudcheckr.com", "https://eu.cloudcheckr.com", "https://au.cloudcheckr.com", "https://gov.cloudcheckr.com", "https://qa.cloudcheckr.com"]
 
-    if env not in Enviroments:
-        log_information(f"The environment {env} is not valid. If this is a standalone environment, please add the url to the check_invalid_env function.")
+    if env not in enviroments:
+        log_information(f"The environment {env} is not valid. If this is a standalone environment, please add the url to the validate_env function.")
 
 
 def main():
@@ -71,7 +71,7 @@ def main():
         return
 
     env = "https://api.cloudcheckr.com"
-    check_invalid_env(env)
+    validate_env(env)
 
     users = get_users_v2(admin_api_key, env)
     for user in users:

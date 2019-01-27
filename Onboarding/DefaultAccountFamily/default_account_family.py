@@ -70,7 +70,7 @@ def validate_env(env):
     enviroments = ["https://api.cloudcheckr.com", "https://eu.cloudcheckr.com", "https://au.cloudcheckr.com", "https://gov.cloudcheckr.com", "https://qa.cloudcheckr.com"]
 
     if env not in enviroments:
-        log_information(f"The environment {env} is not valid. If this is a standalone environment, please add the url to the check_invalid_env function.")
+        log_information(f"The environment {env} is not valid. If this is a standalone environment, please add the url to the validate_env function.")
 
 
 def main():
