@@ -13,9 +13,9 @@
 
 ## How the program works
 
-Uses the [get_users_v2](https://success.cloudcheckr.com/article/kr5glkrmon-admin-api-reference-guide#get_users_v2) API call to get user data from an environment.
+Uses [get_users_v2](https://success.cloudcheckr.com/article/kr5glkrmon-admin-api-reference-guide#get_users_v2) API call to get user data from the tenant.
 
-Uses the [edit_user](https://success.cloudcheckr.com/article/kr5glkrmon-admin-api-reference-guide#edit_user) API call to modify users.
+Uses [edit_user](https://success.cloudcheckr.com/article/kr5glkrmon-admin-api-reference-guide#edit_user) API call to modify users as per the criteria and desired result.
 
 The criteria is set at line 30. 
 
