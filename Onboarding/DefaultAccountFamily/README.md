@@ -5,9 +5,9 @@
 ## Steps to Run
 
 1. Install python 3. https://www.python.org/downloads/
-2. Install requests and logging python libraries with pip3
+2. Install requests and logging libraries with pip
 3. Log into CloudCheckr and create an Admin API access key at Admin Functions >> Admin API Key, https://app.cloudcheckr.com/Project/GlobalApiCredentials
-4. Run python3 default_account_family.py <cloudcheckr-admin-api-key>
+4. Run python default_account_family.py <cloudcheckr-admin-api-key>
 
 ---
 
