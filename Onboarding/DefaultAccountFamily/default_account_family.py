@@ -6,7 +6,8 @@ logging.basicConfig(filename='logging_for_default_account_family.log',level=logg
 
 """
 This python script is used to add all unmapped accounts to a single account family
-python3 default_account_family.py 0000000000000000000000000000000000000000000000000000000000000000
+python default_account_family.py admin_api_key project_id account_family
+(example) python3 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 5 "183698509299 (Aaron Gettings)"
 """
 
 def log_information(log_string):
@@ -71,6 +72,7 @@ def validate_env(env):
 
     if env not in enviroments:
         log_information(f"The environment {env} is not valid. If this is a standalone environment, please add the url to the validate_env function.")
+        return
 
 
 def main():
@@ -79,14 +81,24 @@ def main():
     except IndexError:
         log_information("Must include admin API key")
         return
+
+    try:
+        project_id = str(sys.argv[2])
+    except IndexError:
+        log_information("Must include project id")
+        return
+
+    try:
+        account_family = str(sys.argv[3])
+    except IndexError:
+        log_information("Must include default account family")
+        return
     
     env = "https://api.cloudcheckr.com"
     validate_env(env)
     
-    project_id = 5
-    default_account_family = "183698509299 (Aaron Gettings)"
-    account_string = get_accounts(admin_api_key, env, project_id, default_account_family)
-    modify_account_family(admin_api_key, env, project_id, default_account_family, account_string)
+    account_string = get_accounts(admin_api_key, env, project_id, account_family)
+    modify_account_family(admin_api_key, env, project_id, account_family, account_string)
 
 
 if __name__ == '__main__':
