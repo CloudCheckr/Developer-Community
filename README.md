@@ -1,4 +1,4 @@
-![CloudCheckr Success Center](media/cloudcheckr.png)
+![CloudCheckr Success Center](media/CloudCheckrDeveloperCommunity.png)
 # Welcome to the CloudCheckr Development Community!
 
 Hi! Welcome to the CloudCheckr Development community! This is a repository of scripts, tools or otherwise that can help you quickly integrate CloudCheckr using the native **API**.
