@@ -1,0 +1,183 @@
+{
+  "AWSTemplateFormatVersion": "2010-09-09",
+  "Description": "Find Unmapped Accounts in CloudCheckr function",
+  "Parameters": {
+    "CronExpression": {
+      "Type": "String",
+      "Description": "Cron expression for triggering the function",
+      "Default": "cron(0 13-23 ? * MON-FRI *)"
+    },
+    "SourceEmailAddress": {
+      "Type": "String",
+      "Description": "Email address for sending notifications"
+    },
+    "DestEmailAddress": {
+      "Type": "String",
+      "Description": "Email address for receiving notifications"
+    },
+    "KMSKey": {
+      "Type": "String",
+      "Description": "Arn of the KMS key used to encrypt the cc_admin_access_key secure string"
+    },
+    "S3Bucket": {
+      "Type": "String",
+      "Description": "Name of the bucket where the zip file is"
+    },
+    "S3Key": {
+      "Type": "String",
+      "Description": "Path to the zip file within the bucket"
+    }
+  },
+  "Metadata": {
+    "AWS::CloudFormation::Interface": {
+      "ParameterGroups": [
+        {
+          "Label": {
+            "default": "Deployment Parameters"
+          },
+          "Parameters": [
+            "S3Bucket",
+            "S3Key"
+          ]
+        },
+        {
+          "Label": {
+            "default": "Notification Parameters"
+          },
+          "Parameters": [
+            "SourceEmailAddress",
+            "DestEmailAddress"
+          ]
+        },
+      ]
+    }
+  },
+  "Resources": {
+    "CWCronJob": {
+      "Type": "AWS::Events::Rule",
+      "Properties": {
+        "Description": "Triggers the find-unmapped-accounts function",
+        "Name": "Find-Unmapped-Accounts-Cron-Job",
+        "ScheduleExpression": {
+          "Ref": "CronExpression"
+        },
+        "State": "ENABLED",
+        "Targets": [
+          {
+            "Arn": {
+              "Fn::GetAtt": [
+                "FindUnmappedAccountsFunction",
+                "Arn"
+              ]
+            },
+            "Id": "FindUnmappedAccounts",
+            "Input": {
+              "Fn::Join": [
+                "",
+                [
+                  "{",
+                  "\"notificationsBool\": \"true\"",
+                  "}"
+                ]
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "FindUnmappedAccountsRole": {
+      "Type": "AWS::IAM::Role",
+      "Properties": {
+        "AssumeRolePolicyDocument": {
+          "Version": "2012-10-17",
+          "Statement": [
+            {
+              "Effect": "Allow",
+              "Principal": {
+                "Service": [
+                  "lambda.amazonaws.com"
+                ]
+              },
+              "Action": [
+                "sts:AssumeRole"
+              ]
+            }
+          ]
+        },
+        "RoleName": "lambda_find_unmapped_accounts",
+        "Path": "/",
+        "Policies": [
+          {
+            "PolicyName": "lambda-find-unmapped-accounts-policy",
+            "PolicyDocument": {
+              "Version": "2012-10-17",
+              "Statement": [
+                {
+                  "Effect": "Allow",
+                  "Action": [
+                    "logs:CreateLogGroup",
+                    "logs:CreateLogStream",
+                    "logs:PutLogEvents"
+                  ],
+                  "Resource": "arn:aws:logs:*:*:*"
+                },
+                {
+                  "Effect": "Allow",
+                  "Action": [
+                    "ses:SendEmail"
+                  ],
+                  "Resource": "*"
+                },
+                {
+                  "Sid": "KMSDecrypt",
+                  "Effect": "Allow",
+                  "Action": [
+                    "kms:Decrypt"
+                  ],
+                  "Resource": { "Ref": "KMSKey" }
+                },
+                {
+                  "Sid": "ParameterStore",
+                  "Effect": "Allow",
+                  "Action": "ssm:GetParameters",
+                  "Resource": "*"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "FindUnmappedAccountsFunction": {
+      "Type": "AWS::Lambda::Function",
+      "Properties": {
+        "FunctionName": "find_unmapped_accounts",
+        "Description" : "Detects payee accounts not part of a CloudCheckr account family and alerts via SES",
+        "Handler": "find_unmapped_accounts.handler",
+        "Runtime": "nodejs4.3",
+        "Timeout": 60,
+        "Role": {
+          "Fn::GetAtt": [
+            "FindUnmappedAccountsRole",
+            "Arn"
+          ]
+        },
+        "Environment": {
+          "Variables": {
+            "sourceAddr": { "Ref": "SourceEmailAddress" },
+            "destAddr": { "Ref": "DestEmailAddress" }
+          }
+        },
+        "Code": {
+          "S3Bucket": {
+            "Ref": "S3Bucket"
+          },
+          "S3Key": {
+            "Ref": "S3Key"
+          }
+        }
+      }
+    }
+  },
+  "Outputs": {}
+}

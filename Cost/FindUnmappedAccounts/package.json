@@ -1,0 +1,29 @@
+{
+  "name": "find_unmapped_accounts",
+  "version": "1.0.0",
+  "description": "validate account families in CloudCheckr",
+  "main": "find_unmapped_accounts.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Michael Atkinson",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "aws-sdk": "^2.6.1",
+    "request": "^2.74.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CloudCheckr/Developer-Community.git"
+  },
+  "keywords": [
+    "cloudcheckr",
+    "account",
+    "families"
+  ],
+  "bugs": {
+    "url": "https://github.com/CloudCheckr/Developer-Community/issues"
+  },
+  "homepage": "https://github.com/CloudCheckr/Developer-Community/tree/master/Cost/FindUnmappedAccounts#readme"
+}
