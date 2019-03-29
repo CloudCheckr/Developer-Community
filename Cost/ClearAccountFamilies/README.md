@@ -12,9 +12,9 @@
 5. Set up the payer's account family following the process below.
 6. Run the below.
 
-`
+
 python clear_account_families.py <cloudcheckr-admin-api-key>
-`
+
 ---
 
 ## How the program works
