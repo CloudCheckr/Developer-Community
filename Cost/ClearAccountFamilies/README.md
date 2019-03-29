@@ -36,8 +36,8 @@ with the name Payer Account Family. This account family will not be deleted and 
 Once the script completes you can then create new account families to fit your requirements. It is recommended not to delete the placeholder
 account family until another account family is created.
 
-If the Payer Account Family is not found, then the script will exit without deleting anything. Once the Payer Account Family is
-identified, the script will proceed with the deletion. You can change the name of the Payer Account Family by editing line 60.
+If the Payer Account Family is not found, then the script will exit without deleting anything. Once the Payer Account Family is identified, the script will proceed with the deletion. You can change the name of the Payer Account Family by editing line 60.
+
 ---
 
 ## Assumptions
