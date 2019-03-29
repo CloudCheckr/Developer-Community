@@ -1,0 +1,24 @@
+Skipping the deletion of the account family Payer Account Family
+Successfully deleted the account family 103237659442
+{'Code': 200, 'Message': 'OK'}
+Successfully deleted the account family 121212121212
+{'Code': 200, 'Message': 'OK'}
+Successfully deleted the account family 121234345625
+{'Code': 200, 'Message': 'OK'}
+Successfully deleted the account family 123456456454
+{'Code': 200, 'Message': 'OK'}
+Successfully deleted the account family 183698509299
+{'Code': 200, 'Message': 'OK'}
+Successfully deleted the account family 245990094719
+{'Code': 200, 'Message': 'OK'}
+Successfully deleted the account family 260172486890
+{'Code': 200, 'Message': 'OK'}
+Successfully deleted the account family 318100514071
+{'Code': 200, 'Message': 'OK'}
+Successfully deleted the account family 443094636793
+{'Code': 200, 'Message': 'OK'}
+Successfully deleted the account family 557949322966
+{'Code': 200, 'Message': 'OK'}
+Successfully deleted the account family 614053097691
+{'Code': 200, 'Message': 'OK'}
+Finished deleting account families
