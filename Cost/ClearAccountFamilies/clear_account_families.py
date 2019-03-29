@@ -21,7 +21,7 @@ def get_account_families(env, admin_api_key, payer_account_name):
 
 
 def clear_account_families(env, admin_api_key, AccountFamilies, payer_account_name, payer_account_family):
-    api_url = env + "api/billing.json/delete_account_family"
+    api_url_base = env + "api/billing.json/delete_account_family"
 
     payer_account_family_missing = True
     for i in np.arange(0, np.shape(AccountFamilies)[0]):
@@ -33,10 +33,11 @@ def clear_account_families(env, admin_api_key, AccountFamilies, payer_account_na
         print("It is recommended that you create a placeholder account family that contains the payer and name it " + payer_account_family)
         return
     for i in np.arange(0, np.shape(AccountFamilies)[0]):
+        api_url = api_url_base
         if not(AccountFamilies[i]["Name"] == payer_account_family):
-            account_family_info = json.dumps({"use_account": payer_account_name, "name": AccountFamilies[i]["Name"]})
-            response = requests.post(api_url, headers = {"Content-Type": "application/json", "access_key": admin_api_key}, data = account_family_info)
-            if "ModelState" in response.json():
+            api_url = api_url + "?access_key=" + admin_api_key + "&use_account=" + payer_account_name + "&name=" + AccountFamilies[i]["Name"]
+            response = requests.get(api_url)
+            if "ModelState" in response.json() or "ErrorMessage" in response.json():
                 print("Failed to delete the account family " + AccountFamilies[i]["Name"])
                 print(response.json())
             else:
@@ -56,7 +57,7 @@ def main():
     env = "https://api.cloudcheckr.com/"
 
     payer_account_name = "Payer Master Account"  # Name of the Payer Account in CloudCheckr
-    payer_account_family = "Payer Account Family"  # Name of the Account Family that contains the payer. (This AF will remain)
+    payer_account_family = "Payer Account Family"  # Name of the Account Family that contains the payer. (This account family will NOT be deleted)
     AccountFamilies = get_account_families(env, admin_api_key, payer_account_name)
     if AccountFamilies is None:
         return
