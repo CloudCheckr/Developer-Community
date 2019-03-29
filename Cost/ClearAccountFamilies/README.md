@@ -13,7 +13,7 @@
 6. Run the below.
 
 
-python clear_account_families.py <cloudcheckr-admin-api-key>
+python clear_account_families.py admin-api-key
 
 ---
 
