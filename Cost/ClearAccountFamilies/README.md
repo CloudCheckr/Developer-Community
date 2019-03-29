@@ -10,8 +10,11 @@
 3. Log in to CloudCheckr and create an Admin API access key.
 4. Enter the CloudCheckr Account name of the payer account to line 59 in the variable payer_account_name.
 5. Set up the payer's account family following the process below.
-6. Run python clear_account_families.py <cloudcheckr-admin-api-key>
+6. Run the below.
 
+`
+python clear_account_families.py <cloudcheckr-admin-api-key>
+`
 ---
 
 ## How the program works
