@@ -9,7 +9,8 @@
 2. Install numpy, and requests python libraries with pip. https://github.com/boto/boto3, http://docs.python-requests.org/en/master/user/install/, https://docs.scipy.org/doc/numpy-1.15.1/user/install.html
 3. Log in to CloudCheckr and create an Admin API access key.
 4. Enter the CloudCheckr Account name of the payer account to line 59 in the variable payer_account_name.
-5. Run python clear_account_families.py <cloudcheckr-admin-api-key>
+5. Set up the payer's account family following the process below.
+6. Run python clear_account_families.py <cloudcheckr-admin-api-key>
 
 ---
 
@@ -23,7 +24,7 @@ You can confirm the account families were removed by going to Cost -> AWS Partne
 
 ---
 
-## How to SetUp Payer Account Family
+## How to Set Up Payer Account Family
 
 For historical reasons, you can no longer delete all account families from a payer if some have already been created. It is
 recommended that you create a single account family that contains the payer and name it Payer Account Family. This will
