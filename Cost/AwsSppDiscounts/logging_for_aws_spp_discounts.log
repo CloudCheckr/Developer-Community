@@ -1,0 +1,11 @@
+INFO:root:Obtained SPP account data
+INFO:root:Obtained custom billing charge data
+INFO:root:Modified custom billing charge: Support Discount
+INFO:root:Modified custom billing charge: Net New Account
+INFO:root:Modified custom billing charge: Internal Discount
+INFO:root:Modified custom billing charge: Shareshift1 Discount
+INFO:root:Modified custom billing charge: Shareshift2 Discount
+INFO:root:Modified custom billing charge: Shareshift3 Discount
+INFO:root:Modified custom billing charge: Shareshift4 Discount
+INFO:root:Modified custom billing charge: Base Discount
+INFO:root:Modified custom billing charge: Tech Discount
