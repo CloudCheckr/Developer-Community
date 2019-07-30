@@ -13,7 +13,7 @@
 
 ## How the program works
 
-Uses AWS provided CSV file to add accounts to corresponding Custom Billing Charge buckets.
+Uses AWS provided file to add accounts to corresponding Custom Billing Charge buckets.
 
 If a Custom Billing Charge bucket is empty, it asks that the Custom Billing Charge be deleted. Custom Billing Charges must include at least one account. 
 
@@ -30,4 +30,5 @@ Custom Billing Charges can be viewed through the UI at Cost >> AWS Partner Tools
 ## Assumptions
 
 1. The environment https://api.cloudcheckr.com is being used. This can be adjusted on line 178 if required.
-2. The Custom Billing Charge names are defined at lines 102 to 118. If names do not match current Custom Billing Charge configuration, please redefine names.
+2. The Custom Billing Charge names are defined on lines 102 to 118. If names do not match current Custom Billing Charge configuration, please redefine names.
+3. Convert AWS provided file to CSV and place within same directory as aws_spp_discounts.py. The file name is set on line 27.
