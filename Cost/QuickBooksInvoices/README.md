@@ -15,13 +15,13 @@
 
 ## How the program works
 
-Uses [get_detailed_billing_with_grouping_v2](https://success.cloudcheckr.com/article/7sskuffbg6-api-reference-guide#list_results_from_an_advanced_grouping_saved_filter) API to get Saved Filter data for QuickBooks Invoice API.
+Uses [get_detailed_billing_with_grouping_v2](https://success.cloudcheckr.com/article/7sskuffbg6-api-reference-guide#list_results_from_an_advanced_grouping_saved_filter) API to get Saved Filter data from CloudCheckr for QuickBooks Invoice API.
 
-Uses [item_query](https://developer.intuit.com/app/developer/qbo/docs/api/accounting/most-commonly-used/item#query-an-item) & [customer_query](https://developer.intuit.com/app/developer/qbo/docs/api/accounting/most-commonly-used/customer#query-a-customer) API to get Item and Customer data for QuickBooks Invoice API.
+Uses [item_query](https://developer.intuit.com/app/developer/qbo/docs/api/accounting/most-commonly-used/item#query-an-item) & [customer_query](https://developer.intuit.com/app/developer/qbo/docs/api/accounting/most-commonly-used/customer#query-a-customer) API to get Item and Customer data from QuickBooks for QuickBooks Invoice API.
 
-Uses [item](https://developer.intuit.com/app/developer/qbo/docs/api/accounting/most-commonly-used/item#create-an-item) API to create Items for QuickBooks Invoice API.
+Uses [item](https://developer.intuit.com/app/developer/qbo/docs/api/accounting/most-commonly-used/item#create-an-item) API to create Items in QuickBooks for QuickBooks Invoice API.
 
-Uses [invoice](https://developer.intuit.com/app/developer/qbo/docs/api/accounting/most-commonly-used/invoice) API to create Invocies in QuickBooks.
+Uses [invoice](https://developer.intuit.com/app/developer/qbo/docs/api/accounting/most-commonly-used/invoice) API to create Invoices in QuickBooks.
 
 The payer project ID is the CloudCheckr project ID of the AWS Payer account. Project ID information can be obtained using the [get_accounts_v4](https://success.cloudcheckr.com/article/kr5glkrmon-admin-api-reference-guide#get_accounts_v4) API. Project ID is also known as cc_account_id. 
 
