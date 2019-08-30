@@ -17,7 +17,7 @@
 
 Uses [get_detailed_billing_with_grouping_v2](https://success.cloudcheckr.com/article/7sskuffbg6-api-reference-guide#list_results_from_an_advanced_grouping_saved_filter) API to get Saved Filter data for QuickBooks Invoice API.
 
-Uses [query](https://developer.intuit.com/app/developer/qbo/docs/api/accounting/most-commonly-used/item#query-an-item & https://developer.intuit.com/app/developer/qbo/docs/api/accounting/most-commonly-used/customer#query-a-customer) API to get Item and Customer data for QuickBooks Invoice API.
+Uses [item_query](https://developer.intuit.com/app/developer/qbo/docs/api/accounting/most-commonly-used/item#query-an-item) & [customer_query](https://developer.intuit.com/app/developer/qbo/docs/api/accounting/most-commonly-used/customer#query-a-customer) API to get Item and Customer data for QuickBooks Invoice API.
 
 Uses [item](https://developer.intuit.com/app/developer/qbo/docs/api/accounting/most-commonly-used/item#create-an-item) API to create Items for QuickBooks Invoice API.
 
