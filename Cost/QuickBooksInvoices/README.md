@@ -1,4 +1,4 @@
-# QuickBooks Invoices with the CloudCheckr API
+# QuickBooks Invoices with CloudCheckr API
 
 ---
 
@@ -17,7 +17,7 @@
 
 Uses [get_detailed_billing_with_grouping_v2](https://success.cloudcheckr.com/article/7sskuffbg6-api-reference-guide#list_results_from_an_advanced_grouping_saved_filter) API to get Saved Filter data from CloudCheckr for QuickBooks Invoice API.
 
-Uses [item_query](https://developer.intuit.com/app/developer/qbo/docs/api/accounting/most-commonly-used/item#query-an-item) & [customer_query](https://developer.intuit.com/app/developer/qbo/docs/api/accounting/most-commonly-used/customer#query-a-customer) API to get Item and Customer data from QuickBooks for QuickBooks Invoice API.
+Uses item [query](https://developer.intuit.com/app/developer/qbo/docs/api/accounting/most-commonly-used/item#query-an-item) & customer [query](https://developer.intuit.com/app/developer/qbo/docs/api/accounting/most-commonly-used/customer#query-a-customer) API to get Item and Customer data from QuickBooks for QuickBooks Invoice API.
 
 Uses [item](https://developer.intuit.com/app/developer/qbo/docs/api/accounting/most-commonly-used/item#create-an-item) API to create Items in QuickBooks for QuickBooks Invoice API.
 
@@ -34,5 +34,5 @@ Saved Filters can be viewed through the CloudCheckr UI at Cost >> AWS Billing >>
 1. The CloudCheckr environment is set at https://api.cloudcheckr.com. It can be adjusted on line 249 if required.
 2. The QuickBooks environment is set at https://sandbox-quickbooks.api.intuit.com. It can be adjusted on line 252 if required.
 3. The QuickBooks Account ID needs to be set. It can be adjusted on line 262.
-4. The QuickBooks "DisplayName" and CloudCheckr "Saved Filter" name must match in order to successfully generate an invoice. 
+4. The QuickBooks customer "DisplayName" and CloudCheckr "Saved Filter" name must match in order to successfully generate an invoice. 
 5. Saved Filter used must contain at least two group-by levels. The first group-by level will map to the "Service" attribute and the second group-by level will map to the "Activity" attribute. The "Service" and "Activity" attributes will be included as part of the QuickBooks invoice. 
