@@ -263,10 +263,9 @@ def get_corrected_email(email, env_type):
     split_array = email.split("@")
     return split_array[0] + "+migration" + "@" + split_array[1]
 
-def add_user(env, admin_api_key, env_type, email, role, group_name):
+def add_user(env, admin_api_key, env_type, email, role, auth, group_name):
     """
     Adds a user to the new environment. Will only add to a gorup if the user is in a group.
-    Will add functionality around logon rules later.
     Can't use add_users because users in the same group could have different roles.
     """
 
@@ -277,9 +276,9 @@ def add_user(env, admin_api_key, env_type, email, role, group_name):
     email = get_corrected_email(email, env_type)
 
     if (group_name is None):
-        r7 = requests.post(api_url, headers = {"Content-Type": "application/json", "access_key": admin_api_key}, data = json.dumps({"email": email, "user_role": role}))
+        r7 = requests.post(api_url, headers = {"Content-Type": "application/json", "access_key": admin_api_key}, data = json.dumps({"email": email, "user_role": role, "auth_types": auth}))
     else:
-        r7 = requests.post(api_url, headers = {"Content-Type": "application/json", "access_key": admin_api_key}, data = json.dumps({"email": email, "user_role": role, "group": group_name}))
+        r7 = requests.post(api_url, headers = {"Content-Type": "application/json", "access_key": admin_api_key}, data = json.dumps({"email": email, "user_role": role, "auth_types": auth, "group": group_name}))
 
     if ("Message" in r7.json()):
         print("Failed to create new user " + email)
@@ -311,7 +310,13 @@ def add_users(env1, admin_api_key1, env2, admin_api_key2, env_type, users, Group
     
     for i in np.arange(0, np.shape(users)[0]):
         group_name = get_group_name_of_user(Groups_List, users[i]["email"])
-        add_user(env2, admin_api_key2, env_type, users[i]["email"], users[i]["role"], group_name)
+        if users[i]["logon_rules"][0]["is_granted"] == "yes" and users[i]["logon_rules"][1]["is_granted"] == "yes":
+            auth = ""
+        elif users[i]["logon_rules"][0]["is_granted"] == "yes" and users[i]["logon_rules"][1]["is_granted"] == "no":
+            auth = "forms"
+        elif users[i]["logon_rules"][0]["is_granted"] == "no" and users[i]["logon_rules"][1]["is_granted"] == "yes":
+            auth = "saml"
+        add_user(env2, admin_api_key2, env_type, users[i]["email"], users[i]["role"], auth, group_name)
 
     print("Finished Creating Users\n")
 
