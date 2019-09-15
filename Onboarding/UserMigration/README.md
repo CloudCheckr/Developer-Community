@@ -42,10 +42,6 @@ the "+trick@cloudcheckr.com" in them. Instead, they must have the standard forma
 
 ### Customer Communication
 
-The customer should be told in advance approximately whate time the new users
-will be created, so that they are prepared for when the user activation emails
-start coming in.
-
 PartnerSysAdmin users will NOT be migrated with this script because 
 the Admin API can not be used to create PartnerSysAdmins. This is on-purpose
 because each PartnerSysAdmin should be carefully created and activated
@@ -88,7 +84,7 @@ Then the new Admin API Key.
 
 The available regions currently are api, au, eu, gov, and qa.
 Currently app is not available because api calls should not
-be run against app.cloudcheckr. (cough you know who your are)
+be run against app.
 
 
 For Example (invalid api keys in example)
@@ -122,8 +118,6 @@ It is recommended to run this on a unix based system with enough compute power
 to run large and numerous api calls. Each post api call made will be logged 
 for tracking purposes. 
 
-script output3.txt can be used to store the output and view it live.
-
 screen -r session3 can be used to run a screen while doing other things
 on the console.
 
@@ -133,9 +127,10 @@ on the console.
 * numpy
 * requests
 
-## Author
+## Author(s)
 
 * **Alec Rajeev** - *CloudCheckr Support - Tier 2*
+* **Brett Gadberry** - *Senior Technical Account Manager*
 
 
 ## License
