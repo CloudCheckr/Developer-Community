@@ -113,7 +113,6 @@
 		"CloudWatchFlowLogsPolicy":{
 			"Type":"AWS::IAM::Policy",
 			"Condition":"IncludeFlowLogs",
-			"DependsOn":"IamRole",
 			"Properties":{
 				"Roles":[{"Ref":"IamRole"}],
 				"PolicyName":"CloudCheckr-CloudWatchFlowLogs-Policy",
@@ -137,7 +136,6 @@
 		"CloudTrailPolicy":{
 			"Type":"AWS::IAM::Policy",
 			"Condition":"IncludeCloudTrailBucket",
-			"DependsOn":"IamRole",
 			"Properties":{
 				"Roles":[{"Ref":"IamRole"}],
 				"PolicyName":"CloudCheckr-CloudTrail-Policy",
@@ -169,7 +167,6 @@
 		"SecurityPolicy":{
 			"Type":"AWS::IAM::Policy",
 			"Condition":"IncludeSecurity",
-			"DependsOn":"IamRole",
 			"Properties":{
 				"Roles":[{"Ref":"IamRole"}],
 				"PolicyName":"CloudCheckr-Security-Policy",
@@ -226,7 +223,6 @@
 		"InventoryPolicy":{
 			"Type":"AWS::IAM::Policy",
 			"Condition":"IncludeInventory",
-			"DependsOn":"IamRole",
 			"Properties":{
 				"Roles":[{"Ref":"IamRole"}],
 				"PolicyName":"CloudCheckr-Inventory-Policy",
@@ -376,7 +372,6 @@
 		"DbrPolicy":{
 			"Type":"AWS::IAM::Policy",
 			"Condition":"IncludeBillingBucket",
-			"DependsOn":"IamRole",
 			"Properties":{
 				"Roles":[{"Ref":"IamRole"}],
 				"PolicyName":"CloudCheckr-DBR-Policy",
@@ -407,7 +402,6 @@
 		"CurPolicy":{
 			"Type":"AWS::IAM::Policy",
 			"Condition":"IncludeCurBucket",
-			"DependsOn":"IamRole",
 			"Properties":{
 				"Roles":[{"Ref":"IamRole"}],
 				"PolicyName":"CloudCheckr-CUR-Policy",
@@ -431,7 +425,6 @@
 		"CostPolicy": {
 			"Type": "AWS::IAM::Policy",
 			"Condition": "IncludeCost",
-			"DependsOn":"IamRole",
 			"Properties": {
 				"PolicyName": "CloudCheckr-Cost-Policy",
 				"PolicyDocument": {
