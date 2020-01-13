@@ -97,7 +97,7 @@
 					"Version": "2012-10-17",
 					"Statement": [{
 						"Effect": "Allow",
-						"Principal": {"AWS": { "Fn::If": [ "IsAccountTypeStandard", { "Fn::Sub": "arn:aws:iam::${ExternalAccount}:root"},{ "Fn::Sub": "arn:aws-us-gov:iam::${ExternalAccount}:root"}]}},
+						"Principal": {"AWS": { "Fn::Sub": "arn:${AWS::Partition}:iam::${ExternalAccount}:root" } },
 						"Action": "sts:AssumeRole",
 						"Condition": {
 							"StringEquals": {
@@ -127,7 +127,7 @@
 							"logs:DescribeLogStreams"
 						],
 						"Resource":[
-							{ "Fn::If": [ "IsAccountTypeStandard", "arn:aws:logs:*:*:*", "arn:aws-us-gov:logs:*:*:*"]}
+							{ "Fn::Sub": "arn:${AWS::Partition}:logs:*:*:*" }
 						]
 					}]
 				}
@@ -157,8 +157,8 @@
 							"s3:List*"
 						],
 						"Resource": [
-							{ "Fn::If": [ "IsAccountTypeStandard", {"Fn::Sub":"arn:aws:s3:::${CloudTrailBucket}"}, {"Fn::Sub":"arn:aws-us-gov:s3:::${CloudTrailBucket}"}]},
-							{ "Fn::If": [ "IsAccountTypeStandard", {"Fn::Sub":"arn:aws:s3:::${CloudTrailBucket}/*"}, {"Fn::Sub":"arn:aws-us-gov:s3:::${CloudTrailBucket}/*"}]}
+							{ "Fn::Sub":"arn:${AWS::Partition}:s3:::${CloudTrailBucket}" },
+							{ "Fn::Sub":"arn:${AWS::Partition}:s3:::${CloudTrailBucket}/*" }
 						]
 					}]
 				}
@@ -392,8 +392,8 @@
 							"s3:GetObject"
 						],
 						"Resource":[
-							{ "Fn::If": [ "IsAccountTypeStandard", {"Fn::Sub":"arn:aws:s3:::${BillingBucket}"}, {"Fn::Sub":"arn:aws-us-gov:s3:::${BillingBucket}"}]},
-							{ "Fn::If": [ "IsAccountTypeStandard", {"Fn::Sub":"arn:aws:s3:::${BillingBucket}/*"}, {"Fn::Sub":"arn:aws-us-gov:s3:::${BillingBucket}/*"}]}
+							{ "Fn::Sub":"arn:${AWS::Partition}:s3:::${BillingBucket}" },
+							{ "Fn::Sub":"arn:${AWS::Partition}:s3:::${BillingBucket}/*" }
 						]
 					}]
 				}
@@ -415,8 +415,8 @@
 						],
 						"Effect":"Allow",
 						"Resource":[
-							{ "Fn::If": [ "IsAccountTypeStandard", {"Fn::Sub":"arn:aws:s3:::${CurBucket}"}, {"Fn::Sub":"arn:aws-us-gov:s3:::${CurBucket}"}]},
-							{ "Fn::If": [ "IsAccountTypeStandard", {"Fn::Sub":"arn:aws:s3:::${CurBucket}/*"}, {"Fn::Sub":"arn:aws-us-gov:s3:::${CurBucket}/*"}]}
+							{ "Fn::Sub":"arn:${AWS::Partition}:s3:::${CurBucket}" },
+							{ "Fn::Sub":"arn:${AWS::Partition}:s3:::${CurBucket}/*" }
 						]
 					}]
 				}
