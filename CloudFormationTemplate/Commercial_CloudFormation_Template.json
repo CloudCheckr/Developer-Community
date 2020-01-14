@@ -491,6 +491,10 @@
 			"RoleArn":{
 				"Description":"ARN of the IAM Role",
 				"Value":{"Fn::GetAtt":["IamRole","Arn"]}
+			},
+			"RoleId": {
+				"Description":"Id of the IAM Role",
+				"Value":{"Fn::GetAtt":["IamRole","RoleId"]}
 			}
 		}
 	}
