@@ -55,7 +55,7 @@ def get_role_arn_from_stack(cloudformation, stack_id):
 										time.sleep(10)
 										return Outputs[1]["OutputValue"]
 								else:
-									print("First and second returned value in the stack were neither not a role arn. Investigate stack output")
+									print("First and second returned values in the stack were neither a role arn. Investigate stack output")
 									return None
 					else:
 						print("Could not find an output key in the first cloudformation stack output")
