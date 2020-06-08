@@ -35,6 +35,7 @@ def get_role_arn_from_stack(cloudformation, stack_id):
 			if "Outputs" in Stacks[0]:
 				Outputs = Stacks[0]["Outputs"]
 				if len(Outputs) > 0:
+					
 					if "OutputKey" in Outputs[0]:
 						print("Created a " + Outputs[0]["OutputKey"])
 						print("Created " + Outputs[0]["OutputValue"])
@@ -44,8 +45,18 @@ def get_role_arn_from_stack(cloudformation, stack_id):
 							time.sleep(10)
 							return Outputs[0]["OutputValue"]
 						else:
-							print("First returned value in the stack was not a role arn, weird.")
-							return None
+							if len(Outputs) > 1:
+								if "OutputKey" in Outputs[1]:
+									print("Created a " + Outputs[1]["OutputKey"])
+									print("Created " + Outputs[1]["OutputValue"])
+									if Outputs[1]["OutputKey"] == "RoleArn":
+										print("Found role. Waiting 10 seconds before adding to CloudCheckr.")
+										# AWS makes you wait ten seconds before adding a role to CloudCheckr sometimes.
+										time.sleep(10)
+										return Outputs[1]["OutputValue"]
+								else:
+									print("First and second returned value in the stack were neither not a role arn. Investigate stack output")
+									return None
 					else:
 						print("Could not find an output key in the first cloudformation stack output")
 				else:
