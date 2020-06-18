@@ -10,7 +10,7 @@ To run this you use python add_account.py admin_profile 000000000000000000000000
 
 To run this are the following input parameters cloudcheckr-admin-api-key unique-account-name-in-cloudcheckr cloudtrail-bucket-name billing-bucket-name
 
-The name CloudCheckr admin api key is a 64 character string.
+The CloudCheckr admin api key is a 64 character string.
 The CloudCheckr Account name is the name of the new account in CloudCheckr.
 The cloudtrail-bucket-name is the name of the s3 bucket with cloudtrail data. If this is blank, then no cloudtrail data will be added.
 The billing-bucket-name is the name of the s3 bucket with the DBR. For payee accounts this can be left blank.
