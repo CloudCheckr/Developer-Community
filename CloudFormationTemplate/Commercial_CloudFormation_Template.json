@@ -477,7 +477,8 @@
 								"dynamodb:DescribeReservedCapacityOfferings",
 								"iam:GetAccountAuthorizationDetails",
 								"iam:ListRolePolicies",
-								"iam:ListAttachedRolePolicies"
+								"iam:ListAttachedRolePolicies",
+								"savingsplans:DescribeSavingsPlans"
 							],
 							"Effect": "Allow",
 							"Resource": "*"
