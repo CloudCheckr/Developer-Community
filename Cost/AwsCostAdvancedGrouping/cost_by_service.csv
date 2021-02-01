@@ -1,0 +1,37 @@
+GroupValue,Dec2020
+Cost Explorer,10.00
+Lambda,10.00
+VPC,10.00
+Elastic Load Balancing,10.00
+Database Migration Service,10.00
+SNS,10.00
+SimpleDB,10.00
+CloudWatch,10.00
+RDS,10.00
+Elastic File System,10.00
+Data Pipeline,10.00
+Secrets Manager,10.00
+Directory Service,10.00
+IoT,10.00
+ElastiCache,10.00
+Web Application Firewall,10.00
+DynamoDB,10.00
+Route 53,10.00
+S3,10.00
+CloudTrail,10.00
+Guard Duty,10.00
+EC2,10.00
+SQS,10.00
+Kinesis,10.00
+EC2 Container Registry,10.00
+Glacier,10.00
+Compute Savings Plans,10.00
+Redshift,10.00
+Elasticsearch Service,10.00
+SWF,10.00
+Config,10.00
+Key Management Service,10.00
+WorkSpaces,10.00
+US Sales Tax,10.00
+Support Business,10.00
+CloudFront,10.00
