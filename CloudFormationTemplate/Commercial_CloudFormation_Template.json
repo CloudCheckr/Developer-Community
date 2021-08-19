@@ -434,6 +434,7 @@
 						"Sid": "CloudCheckrCostPermissions",
 						"Action": [
 							"ce:GetReservationUtilization",
+							"ce:GetSavingsPlansPurchaseRecommendation",
 							"ec2:DescribeAccountAttributes",
 							"ec2:DescribeAvailabilityZones",
 							"ec2:DescribeReservedInstancesOfferings",
@@ -460,6 +461,7 @@
 							"ec2:DescribeVolumeStatus",
 							"elasticache:DescribeReservedCacheNodes",
 							"elasticache:DescribeReservedCacheNodesOfferings",
+							"es:DescribeReservedElasticsearchInstances",
 							"rds:DescribeReservedDBInstances",
 							"rds:DescribeReservedDBInstancesOfferings",
 							"rds:DescribeDBInstances",
