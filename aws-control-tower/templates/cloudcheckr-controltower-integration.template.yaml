@@ -1,0 +1,266 @@
+AWSTemplateFormatVersion: 2010-09-09
+Description: CloudCheckr ControlTower Integration.
+Parameters:
+  LambdaBucket:
+    Type: String
+    MinLength: '1'
+    AllowedPattern: '[a-zA-Z0-9-.]*'
+    Description: The prefix of the S3 bucket containing the Lambda package and templates.
+    Default: cc-public-resources
+  LambdaPath:
+    Type: String
+    MinLength: '1'
+    Description: The path to the lambda package file within the bucket.
+    Default: packages/cc_ct_integration_1.0.0.zip
+  StackSetName:
+    Type: String
+    MinLength: '1'
+    Description: Name for the StackSet to create stack instances in new accounts.
+    Default: 'CloudCheckr-ControlTower-StackSet'
+  StackSetTemplateUrl:
+    Type: String
+    MinLength: '1'
+    Description: S3 URL of the CloudFormation template for new accounts. Change the region name suffix on the URL to the Control Tower supported region you are deploying into.
+    Default: 'https://cc-public-resources-us-east-1.s3.amazonaws.com/templates/cc_aws_cfn_iam_stack.template.json'
+  ExternalAccount:
+    Type: String
+    MinLength: '12'
+    MaxLength: '12'
+    Description: CloudCheckr Account ID for cross-account trust.
+    Default: '352813966189'
+  SnsTopicName:
+    Type: String
+    MinLength: '3'
+    Description: SNS Topic to which the Lambda will push notifications in case of failure or important notifications.
+    Default: CloudCheckr-Control-Tower-Integration-Topic
+  ApiClientId:
+    Type: String
+    NoEcho: false
+    MinLength: '36'
+    MaxLength: '36'
+    Description: CloudCheckr API Client ID.
+  ApiClientSecret:
+    Type: String
+    NoEcho: true
+    MinLength: '32'
+    Description: CloudCheckr API Client Secret.
+  ApiClientEndpoint:
+    Type: String
+    Description: CloudCheckr API Endpoint to use.
+    Default: US
+    AllowedValues:
+      - US
+      - AU
+      - EU
+  ApiClientRegionGroup:
+    Type: String
+    Description: CloudCheckr API Region Group for Accounts Credentials Setup.
+    Default: Commercial
+    AllowedValues:
+      - Commercial
+Metadata:
+  'AWS::CloudFormation::Interface':
+    ParameterGroups:
+      - Label:
+          default: Integration Configuration
+        Parameters:
+          - ApiClientId
+          - ApiClientSecret
+          - ApiClientEndpoint
+          - ApiClientRegionGroup
+      - Label:
+          default: Cloud Formation and StackSets Information
+        Parameters:
+          - LambdaBucket
+          - LambdaPath
+          - SnsTopicName
+          - ExternalAccount
+          - StackSetName
+          - StackSetTemplateUrl
+Resources:
+  CreateAccountLifeCycleRule:
+    Type: 'AWS::Events::Rule'
+    Properties:
+      Description: Life Cycle for CreateManagedAccount
+      EventPattern:
+        source:
+          - aws.controltower
+        detail-type:
+          - AWS Service Event via CloudTrail
+        detail:
+          eventSource:
+            - controltower.amazonaws.com
+          eventName:
+            - CreateManagedAccount
+          userAgent:
+            - AWS Internal
+      State: ENABLED
+      Targets:
+        - Arn: !GetAtt 
+            - CloudCheckrLifeCycleLambda
+            - Arn
+          Id: CreateAccountLifeCycle
+  CreateAccountLifeCycleRulePermission:
+    Type: 'AWS::Lambda::Permission'
+    Properties:
+      FunctionName: !Ref CloudCheckrLifeCycleLambda
+      Action: 'lambda:InvokeFunction'
+      Principal: events.amazonaws.com
+      SourceArn: !GetAtt 
+        - CreateAccountLifeCycleRule
+        - Arn
+  SnsTopic:
+    Type : AWS::SNS::Topic
+    Properties:
+        TopicName: !Ref SnsTopicName
+        DisplayName: !Ref SnsTopicName
+  Credentials:
+    Type: 'AWS::SecretsManager::Secret'
+    Properties:
+      Description: CloudCheckr API Credentials
+      Name: "CloudCheckrApiCredentialsSecret"
+      SecretString: !Join 
+        - ''
+        - - '{"ApiClientId":"'
+          - !Ref ApiClientId
+          - '","ApiClientSecret":"'
+          - !Ref ApiClientSecret
+          - '","ApiClientEndpoint":"'
+          - !Ref ApiClientEndpoint
+          - '","ApiClientRegionGroup":"'
+          - !Ref ApiClientRegionGroup
+          - '"}'
+      KmsKeyId: !GetAtt CloudCheckrControlTowerKMSKey.Arn
+    DependsOn:
+      - CloudCheckrControlTowerKMSKey
+  CloudCheckrLifeCycleLambda:
+    Type: 'AWS::Lambda::Function'
+    Properties:
+      FunctionName: "CloudCheckr-ControlTower-Integration-LifeCycle"
+      Description: Function to handle Control Tower LifeCycle
+      Handler: >-
+        Lambda.ControlTowerIntegration::Lambda.ControlTowerIntegration.Function::FunctionHandler
+      Role: !GetAtt 
+        - CloudCheckrLifeCycleLambdaRole
+        - Arn
+      Code:
+        S3Bucket: !Join ['-', [!Ref LambdaBucket, !Ref 'AWS::Region']]
+        S3Key: !Ref LambdaPath
+      Runtime: dotnetcore2.1
+      MemorySize: 128
+      Timeout: 300
+      Environment:
+        Variables:
+          STACKSET_NAME: !Ref StackSetName
+          STACKSET_URL: !Ref StackSetTemplateUrl
+          EXTERNAL_ACCOUNT: !Ref ExternalAccount
+          SECRETS_ARN: !Ref Credentials
+          TOPIC_ARN: !Ref SnsTopic
+    DependsOn:
+      - Credentials
+      - SnsTopic
+  CloudCheckrControlTowerKMSKey:
+    Type: 'AWS::KMS::Key'
+    Properties:
+      Description: KMS Key used to encrypt/decrypt the CloudCheckr-ControlTower Integration Credentials
+      EnableKeyRotation: true
+      KeyPolicy:
+        Version: '2012-10-17'
+        Statement:
+        - Sid: KMSAdminOperations
+          Effect: Allow
+          Principal:
+            AWS: !Sub 'arn:aws:iam::${AWS::AccountId}:root'
+          Action:
+            - kms:*
+          Resource: '*'
+        - Sid: KMSOperations
+          Effect: Allow
+          Principal:
+            AWS: !Sub '${AWS::AccountId}'
+          Action:
+            - kms:Encrypt
+            - kms:Decrypt
+            - kms:ReEncrypt*
+            - kms:GenerateDataKey*
+            - kms:CreateGrant
+            - kms:DescribeKey
+          Resource: '*'
+          Condition:
+            StringEquals:
+              kms:ViaService: !Sub 'secretsmanager.${AWS::Region}.amazonaws.com'
+              kms:CallerAccount: !Sub '${AWS::AccountId}'
+  CloudCheckrControlTowerKMSAlias:
+    Type: 'AWS::KMS::Alias'
+    Properties:
+      AliasName: !Sub 'alias/${AWS::StackName}'
+      TargetKeyId:
+        Ref: CloudCheckrControlTowerKMSKey
+  CloudCheckrLifeCycleLambdaRole:
+    Type: 'AWS::IAM::Role'
+    Properties:
+      Description: Role used by Lambda for life cycle / new account creation
+      AssumeRolePolicyDocument:
+        Version: 2012-10-17
+        Statement:
+          - Effect: Allow
+            Principal:
+              Service:
+                - lambda.amazonaws.com
+            Action:
+              - 'sts:AssumeRole'
+      Path: /
+      ManagedPolicyArns:
+        - arn:aws:iam::aws:policy/service-role/AWSLambdaBasicExecutionRole
+      Policies:
+        - PolicyName: LambaPolicy
+          PolicyDocument:
+            Version: 2012-10-17
+            Statement:
+              - Sid: STSAssumeRole
+                Effect: Allow
+                Action:
+                  - sts:AssumeRole
+                Resource: 
+                  - 'arn:aws:iam::*:role/AWSControlTowerExecution'
+              - Sid: IAMOperations
+                Effect: Allow
+                Action:
+                  - iam:PassRole
+                Resource:
+                  - !Sub 'arn:aws:iam::${AWS::AccountId}:role/service-role/AWSControlTowerStackSetRole'
+              - Sid: S3Operations
+                Effect: Allow
+                Action:
+                  - 's3:GetObject'
+                Resource: 
+                  - !Join ['',['arn:aws:s3:::', !Ref LambdaBucket ,'*']]
+              - Sid: SecretsManagerOperations
+                Effect: Allow
+                Action:
+                  - 'secretsmanager:GetSecretValue'
+                Resource:
+                  - !Ref Credentials
+              - Sid: CloudFormationOperations
+                Effect: Allow
+                Action:
+                  - 'cloudformation:CreateStackInstances'
+                  - 'cloudformation:DescribeStackInstance'
+                  - 'cloudformation:DescribeStackSetOperation'
+                  - 'cloudformation:CreateStackSet'
+                  - 'cloudformation:DescribeStackSet'
+                Resource:
+                  - !Join ['',['arn:aws:cloudformation:', !Ref 'AWS::Region', ':', !Ref 'AWS::AccountId', ':stackset/', !Ref StackSetName, ':*']]
+              - Sid: SnsOperations
+                Effect: Allow
+                Action: 
+                  - 'sns:Publish'
+                Resource:
+                  - !Ref SnsTopic
+              - Sid: KMSOperations
+                Effect: Allow
+                Action:
+                  - 'kms:GenerateDataKey'
+                  - 'kms:Decrypt'
+                Resource:
+                  - !GetAtt CloudCheckrControlTowerKMSKey.Arn
