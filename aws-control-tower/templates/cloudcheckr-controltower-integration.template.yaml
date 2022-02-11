@@ -146,7 +146,7 @@ Resources:
       Code:
         S3Bucket: !Join ['-', [!Ref LambdaBucket, !Ref 'AWS::Region']]
         S3Key: !Ref LambdaPath
-      Runtime: dotnetcore2.1
+      Runtime: dotnetcore3.1
       MemorySize: 128
       Timeout: 300
       Environment:
