@@ -335,6 +335,7 @@
 							"s3:GetBucketVersioning",
 							"s3:GetBucketWebsite",
 							"s3:GetLifecycleConfiguration",
+							"s3:GetEncryptionConfiguration",
 							"s3:List*",
 							"sdb:DomainMetadata",
 							"sdb:ListDomains",
