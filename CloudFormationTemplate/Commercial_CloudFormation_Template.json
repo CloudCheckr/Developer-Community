@@ -298,9 +298,6 @@
 							"iam:List*",
 							"iot:DescribeThing",
 							"iot:ListThings",
-							"kinesis:DescribeStream",
-							"kinesis:GetShardIterator",
-							"kinesis:ListStreams",
 							"kms:DescribeKey",
 							"kms:GetKeyPolicy",
 							"kms:GetKeyRotationStatus",
@@ -365,6 +362,28 @@
 				}
 			}
 		},
+		"InventoryPolicy2":{
+			"Type":"AWS::IAM::Policy",
+			"Condition":"IncludeInventory",
+			"Properties":{
+				"Roles":[{"Ref":"IamRole"}],
+				"PolicyName":"CloudCheckr-Inventory-Policy2",
+				"PolicyDocument":{
+					"Version":"2012-10-17",
+					"Statement":[{
+						"Sid":"InventoryAndUtilization",
+						"Effect":"Allow",
+						"Action":[
+							"kinesis:DescribeStream",
+							"kinesis:GetShardIterator",
+							"kinesis:ListStreams",
+							"kinesis:ListTagsForStream"
+						],
+						"Resource":"*"
+					}]
+				}
+			}
+		},				
 		"DbrPolicy":{
 			"Type":"AWS::IAM::Policy",
 			"Condition":"IncludeBillingBucket",
