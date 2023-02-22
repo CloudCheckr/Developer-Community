@@ -1,0 +1,5 @@
+[config]  
+APIKey = your_key
+APISecret = your_secret
+customerNumber = your_customer_number
+roleIdentifier = stack-set-name
