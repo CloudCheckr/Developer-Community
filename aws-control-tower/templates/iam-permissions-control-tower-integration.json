@@ -247,6 +247,7 @@
 							"cloudformation:GetStackPolicy",
 							"cloudformation:GetTemplate",
 							"cloudformation:ListStackResources",
+							"cloudformation:ListStacks",
 							"cloudfront:GetDistributionConfig",
 							"cloudfront:GetStreamingDistributionConfig",
 							"cloudfront:List*",
@@ -282,6 +283,7 @@
 							"ecs:ListClusters",
 							"ecs:ListContainerInstances",
 							"ecs:ListServices",
+							"ecs:ListTaskDefinitionFamilies",
 							"ecs:ListTaskDefinitions",
 							"ecs:ListTasks",
 							"elasticache:Describe*",
@@ -304,9 +306,6 @@
 							"iam:List*",
 							"iot:DescribeThing",
 							"iot:ListThings",
-							"kinesis:DescribeStream",
-							"kinesis:GetShardIterator",
-							"kinesis:ListStreams",
 							"kms:DescribeKey",
 							"kms:GetKeyPolicy",
 							"kms:GetKeyRotationStatus",
@@ -334,8 +333,8 @@
 							"s3:GetBucketTagging",
 							"s3:GetBucketVersioning",
 							"s3:GetBucketWebsite",
-							"s3:GetLifecycleConfiguration",
 							"s3:GetEncryptionConfiguration",
+							"s3:GetLifecycleConfiguration",
 							"s3:List*",
 							"sdb:DomainMetadata",
 							"sdb:ListDomains",
@@ -365,6 +364,28 @@
 							"workspaces:DescribeWorkspaceBundles",
 							"workspaces:DescribeWorkspaceDirectories",
 							"workspaces:DescribeWorkspaces"
+						],
+						"Resource":"*"
+					}]
+				}
+			}
+		},
+		"InventoryPolicy2":{
+			"Type":"AWS::IAM::Policy",
+			"Condition":"IncludeInventory",
+			"Properties":{
+				"Roles":[{"Ref":"IamRole"}],
+				"PolicyName":"CloudCheckr-Inventory-Policy2",
+				"PolicyDocument":{
+					"Version":"2012-10-17",
+					"Statement":[{
+						"Sid":"InventoryAndUtilization",
+						"Effect":"Allow",
+						"Action":[
+							"kinesis:DescribeStream",
+							"kinesis:GetShardIterator",
+							"kinesis:ListStreams",
+							"kinesis:ListTagsForStream"
 						],
 						"Resource":"*"
 					}]

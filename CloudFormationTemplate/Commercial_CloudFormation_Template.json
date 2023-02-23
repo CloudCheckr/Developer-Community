@@ -241,6 +241,7 @@
 							"cloudformation:GetStackPolicy",
 							"cloudformation:GetTemplate",
 							"cloudformation:ListStackResources",
+							"cloudformation:ListStacks",
 							"cloudfront:GetDistributionConfig",
 							"cloudfront:GetStreamingDistributionConfig",
 							"cloudfront:List*",
@@ -276,6 +277,7 @@
 							"ecs:ListClusters",
 							"ecs:ListContainerInstances",
 							"ecs:ListServices",
+							"ecs:ListTaskDefinitionFamilies",
 							"ecs:ListTaskDefinitions",
 							"ecs:ListTasks",
 							"elasticache:Describe*",
@@ -325,8 +327,8 @@
 							"s3:GetBucketTagging",
 							"s3:GetBucketVersioning",
 							"s3:GetBucketWebsite",
-							"s3:GetLifecycleConfiguration",
 							"s3:GetEncryptionConfiguration",
+							"s3:GetLifecycleConfiguration",
 							"s3:List*",
 							"sdb:DomainMetadata",
 							"sdb:ListDomains",
@@ -383,7 +385,7 @@
 					}]
 				}
 			}
-		},				
+		},
 		"DbrPolicy":{
 			"Type":"AWS::IAM::Policy",
 			"Condition":"IncludeBillingBucket",
