@@ -288,8 +288,6 @@
 							"elasticloadbalancing:Describe*",
 							"elasticmapreduce:Describe*",
 							"elasticmapreduce:List*",
-							"es:DescribeElasticsearchDomains",
-							"es:ListDomainNames",
 							"glacier:DescribeJob",
 							"glacier:DescribeVault",
 							"glacier:GetJobOutput",
@@ -376,6 +374,9 @@
 						"Sid":"InventoryAndUtilization",
 						"Effect":"Allow",
 						"Action":[
+							"es:DescribeElasticsearchDomains",
+							"es:ListDomainNames",
+							"es:ListTags",
 							"kinesis:DescribeStream",
 							"kinesis:GetShardIterator",
 							"kinesis:ListStreams",
