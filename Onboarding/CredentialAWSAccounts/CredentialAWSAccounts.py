@@ -78,9 +78,10 @@ def getAWSAccounts(customer_number, bearer_token, role_id):
     }
     response = requests.request("GET", url, headers=headers, data=payload)
     
-    print("results: ",results)
+    
     account_json = json.loads(response.text)
     results = account_json['items']
+    print("results: ",results)
     #print("account_json: ", account_json)
     #print("next key:")
     nextKey = None
@@ -112,7 +113,7 @@ def getAWSAccounts(customer_number, bearer_token, role_id):
         
         #print("item: ", items)
         #print("provider: ", items["provider"])
-        if items["provider"] == "AWS" and items['credentialVerificationStatus'] == 'NotConfigured' or items["provider"] == "AWS" and items['credentialVerificationStatus'] == 'Failed':
+        if items["provider"] == "AWS" and items['credentialVerificationStatus'] == 'NotConfigured' or items["provider"] == "AWS" and items['credentialVerificationStatus'] == 'Failed' or items["provider"] == "AWS" and items['credentialVerificationStatus'] == 'Empty' :
             print("this item is not credentialed: ", items)
             account_number = items['id']
             external = get_external_id(customer_number, account_number, bearer_token)
