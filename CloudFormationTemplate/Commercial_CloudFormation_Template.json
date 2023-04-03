@@ -451,6 +451,7 @@
 						"Action": [
 							"ce:GetReservationUtilization",
 							"ce:GetSavingsPlansPurchaseRecommendation",
+							"cur:DescribeReportDefinitions",
 							"ec2:DescribeAccountAttributes",
 							"ec2:DescribeAvailabilityZones",
 							"ec2:DescribeReservedInstancesOfferings",
