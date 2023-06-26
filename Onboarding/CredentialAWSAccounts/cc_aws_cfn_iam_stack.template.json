@@ -93,6 +93,7 @@
 		"IamRole": {
 			"Type": "AWS::IAM::Role",
 			"Properties": {
+				"RoleName" : "cc-iam-role",
 				"AssumeRolePolicyDocument": {
 					"Version": "2012-10-17",
 					"Statement": [{
@@ -114,7 +115,6 @@
 			"Type":"AWS::IAM::Policy",
 			"Condition":"IncludeFlowLogs",
 			"Properties":{
-				"RoleName" : "cc-iam-role",
 				"Roles":[{"Ref":"IamRole"}],
 				"PolicyName":"CloudCheckr-CloudWatchFlowLogs-Policy",
 				"PolicyDocument":{
