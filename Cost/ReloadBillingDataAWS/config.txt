@@ -1,0 +1,5 @@
+[config]  
+APIKey = xxxxxxx-xxxxxx-xxxx-xxxxxxxx
+APISecret = xxxxxxxxxxxxxxxxxxxxxxxxxxxx
+customerNumber = 12345667
+monthToReload = 2023-06-01
